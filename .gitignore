@@ -1,0 +1,39 @@
+# Large or sensitive datasets
+D1.csv
+D*.csv
+*.csv.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Generated pipeline outputs
+pipeline_workspace/
+results/
+logs/
+*.pkl
+*.pickle
+
+# Generated scanning outputs
+candidates.txt
+hitlist.txt
+zmap_output.txt
+scan_results.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / editor files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+venv/
+.venv/
