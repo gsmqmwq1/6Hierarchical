@@ -1,5 +1,6 @@
 # Large or sensitive datasets
 D1.csv
+D4.csv
 D*.csv
 *.csv.gz
 *.zip
