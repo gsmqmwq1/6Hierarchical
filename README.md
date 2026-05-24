@@ -2,7 +2,7 @@
 
 6Hierarchical is a systematic IPv6 active scanning framework that prioritizes hierarchical prefix analysis over IID pattern mining. It first applies the MGHP algorithm to expand coarse-grained prefixes and identify potentially active /64 subnets. It then uses the BAG strategy to allocate the probing budget and generate candidate IPv6 addresses through targeted IID migration and splicing.
 
-This repository provides a lightweight review artifact for validating the main workflow of 6Hierarchical, including hierarchical prefix construction, budget-aware address generation, and ZMap-based active probing.
+This repository provides a lightweight implementation artifact for validating the main workflow of 6Hierarchical, including hierarchical prefix construction, budget-aware address generation, and ZMap-based active probing.
 
 ## Dependencies and Installation
 
@@ -59,13 +59,13 @@ sudo make install
 |---|---|
 | `run_pipeline.py` | Main entry point of the project. It runs the full pipeline: MGHP -> BAG -> Scan -> Feedback. |
 | `phase1_mghp.py` | Phase 1: builds the MGHP hierarchical prefix tree from seed IPv6 addresses and serializes the tree structure. |
-| `phase2_bag.py` | Phase 2: performs budget-aware candidate address generation from the MGHP prefix tree. |
+| `phase2_bag.py` | Phase 2: performs budget-aware candidate IPv6 address generation from the MGHP prefix tree. |
 | `test.csv` | A lightweight seed dataset used for testing and validating the workflow. |
 | `requirements.txt` | Python package dependencies required by the artifact. |
 
 ### Data
 
-The repository includes `test.csv`, a lightweight seed dataset for validating the execution workflow. The full-scale dataset used in the paper is not included in this repository due to data size and ethical considerations related to Internet-scale IPv6 measurement.
+The repository includes `test.csv`, a lightweight seed dataset for validating the execution workflow. The large-scale measurement dataset used in the paper is not included in this repository due to data size and ethical considerations related to Internet-scale IPv6 active probing.
 
 Users may run the pipeline with their own seed addresses and metadata. Example data sources include:
 
@@ -102,7 +102,7 @@ The input CSV file should contain seed IPv6 addresses and the metadata fields re
 ### Step 1: Clone the Repository and Install Dependencies
 
 ```bash
-git clone https://github.com/<your-username>/6Hierarchical.git
+git clone https://github.com/gsmqmwq1/6Hierarchical.git
 cd 6Hierarchical
 pip3 install -r requirements.txt
 ```
@@ -160,4 +160,6 @@ Some local ZMap builds may require additional configuration, such as the network
 
 ## Artifact Status
 
-This repository is currently maintained as a lightweight artifact for review and reproducibility checking. It provides the core workflow and a small test dataset. The complete experimental artifact, including additional scripts and large-scale evaluation data that can be publicly released, will be made available upon paper acceptance.
+This repository provides a lightweight implementation artifact of 6Hierarchical for reproducibility checking. It includes the main workflow and a small test dataset for validating the execution process.
+
+The large-scale measurement dataset used in the paper is not included due to data size and ethical considerations related to Internet-scale IPv6 active probing. Users may run the workflow with the provided test dataset or with their own seed addresses and metadata.
