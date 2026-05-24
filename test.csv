@@ -1,0 +1,1001 @@
+﻿IPv6,country,province,city,asnum,asorg,network_prefix,subnet_prefix
+2a01:e0a:7:8b90::1,France,Île-de-France,Saint-Ouen-l'Aumône,12322,Free SAS,2a01:e0a::/38,2a01:e0a:7:8000::/50
+2a01:e0a:ddb:edc0::1,France,Occitanie,Montpellier,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:ddb:e000::/51
+2a01:e0a:1ca:9760::1,France,Nouvelle-Aquitaine,Talence,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ca:8000::/51
+2001:41d0:303:d2::,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:303::/50
+2a01:e0a:1db:cd00::1,France,Île-de-France,La Celle-Saint-Cloud,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1db:c000::/50
+2a01:e0a:ebe:2270::1,France,Brittany,Plémet,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:ebe::/48
+2a01:e0a:18c:bc40::1,France,Grand Est,Metz,12322,Free SAS,2a01:e0a::/38,2a01:e0a:18c:b800::/53
+2a01:e03:15:1700:fe00::cdd3,France,notexist,notexist,12322,Free SAS,2a01:e00::/29,2a01:e00::/29
+2a01:e0a:177:a990::1,France,Île-de-France,Meudon,12322,Free SAS,2a01:e0a::/38,2a01:e0a:177:a000::/52
+2409:8a62:3401:5a99:3599:a43d:de3:9562,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:2000::/35
+2a01:e0a:b85:6470::1,France,Île-de-France,Courbevoie,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b85:4000::/50
+2a09:bac5:2d7f:1e1::30:67,Germany,North Rhine-Westphalia,Düsseldorf,13335,CLOUDFLARENET,2a09:bac5::/34,2a09:bac5:2d78::/45
+2a02:8428:ea8:eb01::1,France,Nouvelle-Aquitaine,Bordeaux,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:e00::/39,2a02:8428:e80::/42
+2a01:e0a:337:da30::1,France,Pays de la Loire,Villaines-sous-Lucé,12322,Free SAS,2a01:e0a::/38,2a01:e0a:337:c000::/50
+2a01:e0a:95e:1140::1,France,Normandy,Évreux,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:95e::/49
+2a01:e0a:565:daa0::1,France,Grand Est,Badonviller,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:565:c000::/51
+2a01:e0a:841:4760::1,France,Grand Est,Neufchâteau,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:841:4000::/52
+2a01:e0a:ab7:a840::1,France,Occitanie,Montpellier,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:ab7:a000::/51
+2a02:842a:80dd:1f01::1,France,Île-de-France,Gretz-Armainvilliers,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:80c0::/43
+2401:4900:44d8:ae3b:0:4a:653e:ef40,India,Uttar Pradesh,Lucknow,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:44c0::/43,2401:4900:44c0::/43
+2a01:e0a:2e7:e5a0::1,France,Île-de-France,Taverny,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2e7:e000::/52
+2001:558:230:3d::2,United States,Pennsylvania,Wynnewood,7922,COMCAST-7922,2001:558::/32,2001:558:200::/41
+2409:8a31:c08:1f81:2494:af5d:ac2f:4ea8,China,Anhui,Hefei,9808,"China Mobile Communications Group Co., Ltd.",2409:8a30::/29,2409:8a31:800::/37
+2a02:8434:6020:4a01::1,France,Hauts-de-France,Vermelles,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8430::/28,2a02:8434:6000::/40
+240e:368:40d:fd90:6037:320c:3898:e5d7,China,Hubei,Wuhan,4134,Chinanet,240e:360::/28,240e:368::/32
+2a09:bac2:b501:166e::23c:50,United States,South Carolina,Seneca,13335,CLOUDFLARENET,2a09:bac2:b000::/36,2a09:bac2:b500::/45
+2409:8a4c:5804:5dfb:f6a:2eff:feb3:85fe,China,Hubei,Wuhan,9808,"China Mobile Communications Group Co., Ltd.",2409:8a4c::/30,2409:8a4c:4000::/35
+2001:41d0:302:c33::23,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:302::/48
+2a01:e0a:3a7:bbc0::1,France,Hauts-de-France,Abbeville,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3a7:8000::/50
+2a01:e0a:b27:94e0::1,France,Occitanie,Baziege,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b27:9000::/52
+2a09:bac3:b38e:1973::289:2f,United States,Pennsylvania,New Castle,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:b388::/45
+2409:8a3c:4f4:465a:c429:2b57:50ad:4766,China,Shandong,Jinan,24444,Shandong Mobile Communication Company Limited,2409:8a3c::/31,2409:8a3c::/37
+2a02:8429:a7e0:ff01::1,France,Occitanie,Rieumes,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:a000::/35,2a02:8429:a400::/38
+2a09:bac2:34ce:14dc::214:8e,France,Nouvelle-Aquitaine,Bordeaux,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:34c8::/45
+2401:4900:3132:c376:0:12:cfde:8d40,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2a09:bac1:76a0:56b0::3cd:51,United States,Texas,Flower Mound,13335,CLOUDFLARENET,2a09:bac1::/32,2a09:bac1:76a0:56b0::/64
+2a00:7ee0:8:0:3:124:0:2d9,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a01:e0a:d81:c720::1,France,Nouvelle-Aquitaine,Thenon,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d81:c000::/51
+2a09:bac3:3478:18fa::27d:e3,France,Île-de-France,Paris,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3478::/48
+2003:e6:27ff:1c4e:4a5d:35ff:fe44:a0a2,Germany,North Rhine-Westphalia,Duisburg,3320,Deutsche Telekom AG,2003:e6::/31,2003:e6:2400::/38
+2a09:bac3:2cff:187::27:d4,Germany,North Rhine-Westphalia,Hattingen,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:2cf8::/45
+2a02:8070:d00::1895,Germany,Baden-Wurttemberg,Stuttgart,3209,Vodafone GmbH,2a02:8070::/33,2a02:8070:d00::/41
+2409:8a5c:60b:2777:fe8e:5bff:fe36:b7c9,China,Guangxi,Nanning,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c::/37
+2a01:6380::2:0:c4e,France,notexist,notexist,25540,Alphalink SASU,2a01:6380::/32,2a01:6380::/32
+2003:c6:e7ff:2d0d:2669:a5ff:feb0:a652,Germany,Baden-Wurttemberg,Achern,3320,Deutsche Telekom AG,2003:c6:8000::/33,2003:c6:e400::/38
+2a09:bac5:b40c:1791::259:4f,United States,Pennsylvania,Harrisburg,13335,CLOUDFLARENET,2a09:bac5:8000::/33,2a09:bac5:b408::/45
+2001:8d8:827:1000::14:1de5,France,notexist,notexist,8560,IONOS SE,2001:8d8::/32,2001:8d8:800::/41
+2a01:e0a:5c8:ef0::1,France,Brittany,Brest,12322,Free SAS,2a01:e0a:5c0::/44,2a01:e0a:5c8:800::/53
+2a01:e0a:ae1:c280::1,France,Nouvelle-Aquitaine,Izon,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:ae1:8000::/49
+2a01:e0a:d49:aa60::1,France,Centre-Val de Loire,Lorris,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d49:8000::/49
+2a01:c8:2:105::193,France,notexist,notexist,20756,Nameshield SAS,2a01:c8::/32,2a01:c8::/32
+2001:4b98:dc0:41:216:3eff:fe2c:efee,France,notexist,notexist,29169,GANDI SAS,2001:4b98:dc0::/46,2001:4b98::/29
+2a09:bac3:a72b:1678::23d:8a,United States,Rhode Island,Westerly,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:a728::/45
+2a01:e0a:245:2860::1,France,Auvergne-Rhône-Alpes,Grenoble,12322,Free SAS,2a01:e0a::/38,2a01:e0a:245:2000::/51
+2a09:bac3:9c4e:a0::10:467,United States,North Carolina,Raleigh,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:9c4c::/46
+2401:4900:313d:40e1:0:66:a3ea:9040,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2a01:e0a:3dd:3850::1,France,Grand Est,Strasbourg,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3dd:2000::/51
+2a01:e0a:5ec:2170::1,France,Grand Est,Reims,12322,Free SAS,2a01:e0a:5e0::/43,2a01:e0a:5ec:2000::/51
+2001:558:6040:5a:31b0:1925:d39b:f896,United States,Colorado,Lakewood,7922,COMCAST-7922,2001:558::/32,2001:558:6040::/48
+2001:bc8:1201:90d:569f:35ff:fe17:f3f0,France,notexist,notexist,12876,Scaleway S.a.s.,2001:bc8::/32,2001:bc8:1000::/38
+2401:4900:2622:31d7:0:34:78ee:d240,India,Tamil Nadu,Chennai,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:2600::/40,2401:4900:2600::/39
+240e:398:3a01:4ac:4eab:fc8b:a9c0:1a08,China,Sichuan,Chengdu,4134,Chinanet,240e:398::/29,240e:398:2000::/35
+2001:41d0:305:2100::9e4c,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:305::/48
+2a09:bac2:b0ef:1541::21e:b3,United States,California,Montebello,13335,CLOUDFLARENET,2a09:bac2:b000::/36,2a09:bac2:b0e8::/45
+2001:8d8:871:3a00::443:31,France,notexist,notexist,8560,IONOS SE,2001:8d8::/32,2001:8d8:800::/41
+2a01:e0a:b23:8b20::1,France,Centre-Val de Loire,Lucé,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b23:8000::/52
+2a01:e0a:387:2020::1,France,Occitanie,Sète,12322,Free SAS,2a01:e0a::/38,2a01:e0a:387:2000::/51
+2a09:bac2:3338:246e::3a1:1f,France,Centre-Val de Loire,Blois,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3338::/45
+2a02:8071:800::1175,Germany,Baden-Wurttemberg,Schwetzingen,3209,Vodafone GmbH,2a02:8071:800::/39,2a02:8071:800::/39
+2a02:8429:d3bb:7b01:5afc:20ff:fe52:bcdf,France,Île-de-France,Saint-Germain-en-Laye,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:c000::/34,2a02:8429:d380::/41
+2a09:bac3:a77c:1973::289:d2,United States,Connecticut,Shelton,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:a770::/44
+2a01:e0a:35d:5110::1,France,Île-de-France,Cachan,12322,Free SAS,2a01:e0a::/38,2a01:e0a:35d::/49
+2a02:842a:f178:1b01::1,France,Occitanie,Perpignan,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:f100::/41
+2a01:e0a:e54:f80::1,France,Occitanie,Montpellier,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:e54::/50
+2a02:810c:0:6::1d79,Germany,Rheinland-Pfalz,Frankenthal,3209,Vodafone GmbH,2a02:810c::/38,2a02:810c::/40
+2409:8a55:9207:141d:d18f:e7a8:55c6:bd04,China,Guangdong,Guangzhou,9808,"China Mobile Communications Group Co., Ltd.",2409:8a55:8000::/34,2409:8a55:9000::/38
+2a01:e0a:81c:4830::1,France,Provence-Alpes-Côte d'Azur,Toulon,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:81c:4000::/51
+2a02:2f4:8001:1a2b:e228:6dff:fef3:7185,Germany,Lower Saxony,Emlichheim,42965,net services GmbH & Co. KG,2a02:2f0::/29,2a02:2f4:8000::/39
+2001:41d0:a:39ec::1,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:a:3000::/52
+2a01:586:98b:0:2e3a:fdff:fe86:b332,Germany,Lower Saxony,Wolfsburg,9136,Wobcom GmbH,2a01:586::/33,2a01:586:800::/38
+2a01:e0a:153:6610::1,France,Auvergne-Rhône-Alpes,Claix,12322,Free SAS,2a01:e0a::/38,2a01:e0a:153:6000::/52
+2409:8a62:507:3440:78b3:9116:4acb:400,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:400::/38
+2a03:4000:30:8424::13:4222,Germany,Bavaria,Nuremberg,197540,netcup GmbH,2a03:4000::/42,2a03:4000:30::/44
+2a09:bac3:a5fd:13e1::1fb:35,United States,New York,Syracuse,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:a5fc::/46
+2604:2000:6fc0:0:bc27:8970:f2a2:eb63,United States,New York,Queens,12271,TWC-12271-NYC,2604:2000::/32,2604:2000:6fc0::/62
+2a01:e0a:b81:5300::1,France,Nouvelle-Aquitaine,Vouillé,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b81:5000::/52
+2a00:7ee0:9:3:42:1:0:181,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a09:bac3:339f:1e1::30:65,France,Grand Est,Reims,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3398::/45
+2a01:e0a:50:d050::1,France,Auvergne-Rhône-Alpes,Vénissieux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:50::/47
+240e:428:6034:3319::1,China,notexist,notexist,4134,Chinanet,240e:428::/29,240e:420::/28
+2603:8080:39f0:c20:7a6c:84ff:fe78:2bc1,United States,Texas,Beaumont,11427,TWC-11427-TEXAS,2603:8080:2000::/35,2603:8080:39f0::/48
+2a02:842b:47e:5c01::1,France,Grand Est,Épernay,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:478::/45
+2a01:e0a:3c9:720::1,France,Bourgogne-Franche-Comté,Dole,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3c9::/51
+2a01:e0a:3de:7a70::1,France,Hauts-de-France,Avion,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3de:7000::/52
+2a01:e0a:4ae:6c90::1,France,Normandy,Rouen,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4ae:6000::/52
+2a01:e0a:b56:1d20::1,France,Hauts-de-France,Bray-Dunes,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b56::/51
+2a02:842a:81af:9a01::1,France,Hauts-de-France,Douai,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:81a0::/44
+2401:4900:30d3:273f:0:65:37ba:b440,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:30c0::/43,2401:4900:30c0::/43
+2001:41d0:700:3f5a::,France,notexist,notexist,16276,OVH SAS,2001:41d0:700::/50,2001:41d0:700:3800::/53
+2a01:e0a:27a:ab10::1,France,Île-de-France,Sèvres,12322,Free SAS,2a01:e0a::/38,2a01:e0a:27a:a000::/52
+2001:660:7903:6000:1::249,France,Île-de-France,Dourdan,2200,Renater,2001:660:4000::/34,2001:660:7800::/37
+2a09:bac2:be4c:1955::286:d0,United States,Illinois,Chicago,13335,CLOUDFLARENET,2a09:bac2:b000::/36,2a09:bac2:be48::/45
+2a01:e0a:d88:7d0::1,France,Normandy,Les Andelys,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d88::/48
+2003:e8:e7ff:cb3:2e3a:fdff:fe97:78d2,Germany,Bavaria,Oberau,3320,Deutsche Telekom AG,2003:e8:8000::/33,2003:e8:e400::/38
+2a01:e0a:bd0:8220:211:32ff:fe06:f5ec,France,Auvergne-Rhône-Alpes,Lyon,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:bd0:8000::/50
+2a01:e0a:e8b:7147::,France,Pays de la Loire,Nantes,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:e8b:6000::/51
+2a01:e0a:960:3a20::1,France,Nouvelle-Aquitaine,Audenge,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:960:2000::/51
+2a02:8428:bed2:3701::1,France,Centre-Val de Loire,Orléans,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:a000::/35,2a02:8428:be00::/40
+2401:4900:c83:a457:0:52:1eb2:2540,India,notexist,notexist,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:c80::/44,2401:4900:c80::/41
+2a01:e0a:833:2be0::1,France,Hauts-de-France,Somain,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:833:2000::/51
+2a02:8428:d55c:f801:6aaa:c4ff:fe4f:526f,France,Grand Est,Sarreguemines,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:c000::/34,2a02:8428:d540::/42
+2a01:e0a:b57:3080::1,France,Normandy,Le Havre,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b57::/50
+2a01:e0a:12c:6dd0::1,France,Nouvelle-Aquitaine,Bordeaux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:12c:4000::/50
+2a01:e0a:18b:be30::1,France,Nouvelle-Aquitaine,Bordeaux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:18b:8000::/49
+2409:8a6c:5e02:2e8:8222:78ac:4e94:4b59,China,Yunnan,Pu'er,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a6c:4000::/34
+2a01:e0a:1a6:c7f0::1,France,Île-de-France,Bouffémont,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1a6:c000::/51
+240e:3ae:e00:c9a7:c55c:ac23:eca2:921c,China,Jiangsu,Nanjing,4134,Chinanet,240e:3a8::/29,240e:3ae::/36
+2001:8d8:826:ae00::30:52a6,France,notexist,notexist,8560,IONOS SE,2001:8d8::/32,2001:8d8:800::/41
+2a02:8428:c:ca01::1,France,Île-de-France,Paris,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428::/37,2a02:8428::/39
+2a01:e0a:18c:96c0::1,France,Centre-Val de Loire,Bourges,12322,Free SAS,2a01:e0a::/38,2a01:e0a:18c:9000::/52
+2a01:e0a:5c4:8070::1,France,Centre-Val de Loire,Tours,12322,Free SAS,2a01:e0a:5c0::/44,2a01:e0a:5c4:8000::/52
+2a09:bac2:31f0:1c82::2d7:3f,France,Brittany,Rennes,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:31f0::/45
+2a01:e34:ec0f:a340::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec08::/45,2a01:e34:ec0f:a000::/51
+240e:368:5003:a39:806b:efd1:420c:fe25,China,Hubei,Wuhan,4134,Chinanet,240e:360::/28,240e:368::/32
+2001:550:1:316::2,United States,California,Pasadena,174,COGENT-174,2001:550::/40,2001:550:1::/48
+2a02:8428:1b58:3401::1,France,Provence-Alpes-Côte d'Azur,La Crau,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:1000::/36,2a02:8428:1b40::/42
+2a01:e0a:279:1c0::1,France,Île-de-France,Les Clayes-sous-Bois,12322,Free SAS,2a01:e0a::/38,2a01:e0a:279::/51
+2a02:842b:8435:7c01::1,France,Île-de-France,Nemours,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:8430::/45
+2a01:e0a:165:d9e0::1,France,Grand Est,Reims,12322,Free SAS,2a01:e0a::/38,2a01:e0a:165:8000::/49
+2a01:e0a:3c9:280::1,France,Bourgogne-Franche-Comté,Dole,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3c9::/51
+2a01:e0a:8bd:8430::1,France,Normandy,Grand-Couronne,12322,Free SAS,2a01:e0a:880::/42,2a01:e0a:8bd:8000::/52
+2a01:e34:ecac:3040::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec80::/41,2a01:e34:ecac::/50
+2a09:bac3:8ce1:1cd2::2df:33,United States,Michigan,Ann Arbor,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:8ce0::/45
+2a01:e0a:131:d3d0::1,France,Île-de-France,Enghien-les-Bains,12322,Free SAS,2a01:e0a::/38,2a01:e0a:131:d000::/52
+2a01:e0a:b43:bd50::1,France,Provence-Alpes-Côte d'Azur,Lauris,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b43:8000::/50
+2401:4900:4468:2a1f:0:57:8bc:8a40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4460::/44,2401:4900:4460::/44
+2409:8a6c:703:965:94:5b22:58c8:3994,China,Yunnan,Kunming,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a6c::/37
+2401:4900:2eee:d853:0:55:3fbe:8240,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:2ec0::/42,2401:4900:2ec0::/42
+2a09:bac2:a6bb:8c::e:2a8,United States,New York,Buffalo,13335,CLOUDFLARENET,2a09:bac2:a000::/37,2a09:bac2:a6b8::/46
+2a02:3100:2001:901d:e72:74ff:fea9:b2ee,Germany,Land Berlin,Berlin,6805,Telefonica Germany,2a02:3100::/34,2a02:3100:2000::/39
+2401:4900:527c:8687:0:39:f76b:2940,India,Rajasthan,Jaipur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:5270::/44,2401:4900:5240::/42
+2604:6000:6fc0:3c:e0b6:e62a:d992:9595,United States,New York,Parish,11351,TWC-11351-NORTHEAST,2604:6000::/32,2604:6000:6fc0:3c::/64
+2a01:e0a:9b5:6770::1,France,Île-de-France,Noisy-le-Grand,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9b5:6000::/52
+2600:3c0f:18:5:27::492,United States,Illinois,Chicago,63949,Akamai Connected Cloud,2600:3c0f:18::/47,2600:3c0f:18::/48
+2a02:8428:1432:5101:ce19:a8ff:fe71:e17f,France,Pays de la Loire,Angers,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:1000::/36,2a02:8428:1400::/40
+2001:41d0:1:a4a6::,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0::/45
+2a01:e0a:2eb:a640::1,France,Île-de-France,Émerainville,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2eb:a000::/52
+2001:9e8:407f:1c9c:7eff:4dff:fe63:9ee8,Germany,North Rhine-Westphalia,Velbert,8881,1&1 Versatel Deutschland GmbH,2001:9e8:4000::/39,2001:9e8:4000::/40
+2a01:e0a:3dc:a600::1,France,Île-de-France,Mantes-la-Jolie,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3dc:a000::/52
+2401:4900:470f:335a:0:8:2978:5040,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4700::/43,2401:4900:4700::/40
+2a01:e0a:ac3:88c0::1,France,Brittany,Plélo,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:ac3:8000::/50
+2a02:8070:700::48a0,Germany,Baden-Wurttemberg,Stuttgart,3209,Vodafone GmbH,2a02:8070::/33,2a02:8070:700::/41
+2a09:bac2:320e:254b::3b7:25,France,Provence-Alpes-Côte d'Azur,Marseille,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3208::/45
+2a01:e0a:1ba:31b0::1,France,Bourgogne-Franche-Comté,Pontarlier,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ba:2000::/51
+2a09:bac2:362e:14e6::215:6b,France,Pays de la Loire,Nantes,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3628::/45
+2a01:e34:ec0a:2ea0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec08::/45,2a01:e34:ec0a::/49
+2605:6404:c7:a140:e777:fe25:8415:e8f3,United States,Florida,Miami,53667,PONYNET,2605:6404::/32,2605:6404::/40
+2a01:e0a:288:dc10::1,France,Auvergne-Rhône-Alpes,Varces-Allières-et-Risset,12322,Free SAS,2a01:e0a::/38,2a01:e0a:288:d000::/52
+2001:558:6017:13c:e581:9950:4111:9171,United States,Massachusetts,Arlington,7922,COMCAST-7922,2001:558::/32,2001:558:6017:130::/60
+2a01:e0a:19b:6a90::1,France,Brittany,Saint-Brieuc,12322,Free SAS,2a01:e0a::/38,2a01:e0a:19b:6000::/52
+2a01:e0a:18f:6970::1,France,Île-de-France,Brétigny-sur-Orge,12322,Free SAS,2a01:e0a::/38,2a01:e0a:18f:4000::/50
+2a02:8428:731f:1601::1,France,Grand Est,Troyes,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:4000::/34,2a02:8428:7300::/43
+2a01:e0a:a27:eb90::1,France,Occitanie,Balaruc-les-Bains,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a27::/48
+2a02:8428:19e1:dd01::1,France,Occitanie,Canet,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:1000::/36,2a02:8428:19c0::/42
+2a02:8428:968:c101::1,France,Brittany,Orgères,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:800::/38,2a02:8428:960::/43
+2a09:bac5:34b5:14e6::215:111,France,Île-de-France,Aulnay-sous-Bois,13335,CLOUDFLARENET,2a09:bac5::/34,2a09:bac5:34b0::/45
+2a09:bac3:7009:aa::11:16e,United States,Georgia,Alpharetta,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:7008::/47
+2a01:e0a:d09:200::1,France,Corsica,Penta-di-Casinca,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d09::/50
+2a09:bac3:3f74:16aa::242:56,India,Tamil Nadu,Kodaikānāl,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3f70::/45
+2a09:bac3:86e1:15eb::22f:74,United States,Louisiana,New Orleans,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:86e0::/47
+2401:4900:30e7:c9b:0:61:f1cb:6a40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:30e0::/44,2401:4900:30e0::/44
+2001:861:3f82:c1ff::1,France,Île-de-France,Noisy-le-Grand,5410,Bouygues Telecom SA,2001:860::/29,2001:861:3f82::/47
+240e:368:20e:a52b:c71:d11f:4406:c49e,China,Hubei,Wuhan,4134,Chinanet,240e:360::/28,240e:368::/32
+2a01:e0a:c1:1150::1,France,Île-de-France,Poissy,12322,Free SAS,2a01:e0a::/38,2a01:e0a:c1::/50
+2a01:e0a:4ba:d1a0::1,France,Provence-Alpes-Côte d'Azur,Pierrefeu-du-Var,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4ba:c000::/50
+2409:8a28:74fa:1ca7:643:fd46:c0c0:2451,China,Zhejiang,Yiwu,56041,China Mobile communications corporation,2409:8a28::/32,2409:8a28:7000::/36
+2409:8a00:1803:1b69:8526:116:f9a8:f87b,China,Beijing,Beijing,56048,China Mobile Communicaitons Corporation,2409:8a00::/31,2409:8a00:1800::/39
+2402:3a80:1ce2:7fbf:0:29:c22a:5140,India,Gujarat,Ahmedabad,38266,Vodafone Idea Ltd,2402:3a80:1ce0::/43,2402:3a80:1ce0::/43
+2a01:e0a:1ef:e360::1,France,Île-de-France,Noisy-le-Grand,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ef:c000::/50
+2a01:e0a:2a5:77d0::1,France,Île-de-France,Eaubonne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2a5:6000::/51
+2a01:e0a:1e4:40b0::1,France,Île-de-France,Saint-Cloud,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1e4:4000::/50
+2001:41d0:602:44b8::,France,notexist,notexist,16276,OVH SAS,2001:41d0:600::/40,2001:41d0:602:4000::/50
+2401:4900:43ad:39d5:0:65:f14a:5140,India,Himachal Pradesh,Dharampur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:43a0::/44,2401:4900:43a8::/45
+2a01:e0a:816:a780::1,France,Bourgogne-Franche-Comté,Audincourt,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:816:a000::/52
+2a09:bac2:3289:18fa::27d:26,France,Auvergne-Rhône-Alpes,Chamonix,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3288::/45
+2409:8a18:1851:1e2:eee7:c2ff:fe28:2170,China,Jilin,Changchun,134810,China Mobile Group JiLin communications corporation,2409:8a18::/31,2409:8a18::/32
+2409:8a30:c60b:2dbe:26e8:e528:7064:80d4,China,Anhui,Bengbu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a30::/29,2409:8a30:c000::/34
+2409:8a62:1401:ad51:d0b2:c24a:469c:d7bf,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:1000::/36
+2a01:e0a:177:a980::1,France,Île-de-France,Meudon,12322,Free SAS,2a01:e0a::/38,2a01:e0a:177:a000::/52
+2a01:e0a:1ea:dc50::1,France,Pays de la Loire,Bouchemaine,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ea:d000::/52
+2a01:e34:ec25:cda0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec20::/43,2a01:e34:ec25:8000::/49
+2a01:e0a:dec:89f0::1,France,Auvergne-Rhône-Alpes,Villeurbanne,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:dec:8000::/50
+2a01:e0a:5f9:37f0::1,France,Grand Est,Rixheim,12322,Free SAS,2a01:e0a:5e0::/43,2a01:e0a:5f9:2000::/51
+2a09:bac2:81e1:96::f:168,United States,Kansas,Wichita,13335,CLOUDFLARENET,2a09:bac2:8000::/36,2a09:bac2:81e0::/46
+2003:f7:b7ff:2850:aaa2:37ff:fe9b:6a5d,Germany,North Rhine-Westphalia,Wermelskirchen,3320,Deutsche Telekom AG,2003:f7::/32,2003:f7:b400::/38
+2a01:e0a:818:e5f0::1,France,Brittany,Lorient,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:818:e000::/51
+2a00:6020:1000:1b::1d0e,Germany,North Rhine-Westphalia,Rosendahl,60294,Deutsche Glasfaser Wholesale GmbH,2a00:6020::/33,2a00:6020:1000::/39
+2001:558:6026:2:4dc7:f3fc:efac:9992,United States,Pennsylvania,Philadelphia,7922,COMCAST-7922,2001:558::/32,2001:558:6026::/47
+2a01:e0a:9e3:4470::1,France,Nouvelle-Aquitaine,Mérignac,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9e3::/49
+2a00:1f:e2c0:3100::1,Germany,Free and Hanseatic City of Hamburg,Hamburg,3209,Vodafone GmbH,2a00::/27,2a00:1f:e280::/41
+2a09:bac3:5e1d:15eb::22f:82,United States,Arkansas,Trumann,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:5e18::/45
+2a01:e0a:424:a040::1,France,Grand Est,Reims,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:424:8000::/50
+2a01:e0a:86d:7ae0::1,France,Île-de-France,Choisy-le-Roi,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:86d:4000::/50
+2a01:e0a:94d:d010::1,France,Brittany,Mordelles,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:94d:8000::/49
+2a09:bac3:362e:254b::3b7:2e,France,Pays de la Loire,Nantes,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3628::/45
+2a01:e0a:5f9:3a20::1,France,Grand Est,Rixheim,12322,Free SAS,2a01:e0a:5e0::/43,2a01:e0a:5f9:2000::/51
+2a09:bac2:b089:1537::21d:1,United States,Oregon,Portland,13335,CLOUDFLARENET,2a09:bac2:b000::/36,2a09:bac2:b089::/48
+2a02:8429:d630:a501::1,France,Île-de-France,Montreuil,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:c000::/34,2a02:8429:d600::/40
+2a02:8428:371a:1c01:1e57:3eff:fed7:50ff,France,Île-de-France,Morsang-sur-Orge,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:2000::/35,2a02:8428:3700::/42
+2a01:e0a:abf:39b0::1,France,Île-de-France,Évry,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:abf::/50
+2401:4900:4709:c5be:0:1f:b8c:a240,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4700::/43,2401:4900:4700::/40
+2401:4900:4184:73fa:0:6:4c77:b740,India,Rajasthan,Jaipur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4180::/41,2401:4900:4180::/41
+2a09:bac3:33f6:1c82::2d7:11,France,Hauts-de-France,Dunkirk,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:33f0::/45
+2a01:e0a:15:2a0::1,France,Normandy,Le Havre,12322,Free SAS,2a01:e0a::/38,2a01:e0a:15::/49
+2a09:bac3:34c9:150f::219:a8,France,Nouvelle-Aquitaine,Bordeaux,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:34c8::/45
+2401:4900:40f2:e272:0:3e:e74d:9c40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:40f0::/44,2401:4900:40c0::/42
+2a01:e0a:3d4:7eb0::1,France,Centre-Val de Loire,Chartres,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3d4:6000::/51
+2a09:bac2:7633:1c64::2d4:a,United States,Texas,Dallas,13335,CLOUDFLARENET,2a09:bac2:7000::/37,2a09:bac2:7630::/44
+2a01:e0a:1d9:a910::1,France,Nouvelle-Aquitaine,Poitiers,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1d9:a000::/52
+2a01:e0a:58d:1070::1,France,Provence-Alpes-Côte d'Azur,Nice,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:58d::/49
+2400:7b60:5:fa7c:bab7:dbff:fe3d:735f,India,Telangana,Hyderabad,137097,Rohan Media Private Ltd,2400:7b60::/32,2400:7b60::/38
+2a01:e0a:1fc:f970::1,France,Île-de-France,Roissy-en-Brie,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1fc:e000::/51
+2a01:e35:39f8:1730::1,France,Île-de-France,Garges-lès-Gonesse,12322,Free SAS,2a01:e35::/32,2a01:e35:39f8::/50
+2409:8a5c:7c02:2982:867a:dfff:fe8b:27b1,China,Guangxi,Nanning,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c:7000::/36
+2a02:8429:4d30:b301::1,France,Provence-Alpes-Côte d'Azur,Marseille,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429::/33,2a02:8429:4d00::/41
+2a09:bac3:3b2a:a82::10c:3a,India,Andhra Pradesh,Nellore,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3b28::/45
+2a01:e0a:9c3:13d0::1,France,Pays de la Loire,Angers,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9c3::/48
+2409:8a44:8600:f93c:8e8f:8bff:fe51:13e8,China,Henan,Xinyang,24445,"Henan Mobile Communications Co.,Ltd",2409:8a44::/30,2409:8a44:8400::/38
+2a01:e0a:1ec:9040::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ec:8000::/51
+2a01:e0a:499:89a0::1,France,Auvergne-Rhône-Alpes,Estrablin,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:499:8000::/50
+240e:380:9600:3592:36d8:56ff:fe5d:9f22,China,Hunan,Shaoyang,4134,Chinanet,240e:380::/29,240e:380::/32
+2a01:e02:1:1735:fe00::222e,France,notexist,notexist,12322,Free SAS,2a01:e00::/29,2a01:e00::/29
+2a01:e0a:9ce:c3a0::1,France,Hauts-de-France,Tourcoing,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9ce:c000::/50
+2a01:e0a:3e5:b160::1,France,Île-de-France,Savigny-le-Temple,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3e5:b000::/52
+2401:4900:446c:8aea:0:65:1f74:be40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4460::/44,2401:4900:4460::/44
+2604:6000:bfc0:4c:10fc:159b:9226:6527,United States,New York,Ira,11351,TWC-11351-NORTHEAST,2604:6000::/32,2604:6000:bfc0:4c::/64
+2001:558:6044:14:21d0:ea30:3127:e9,United States,California,Alameda,7922,COMCAST-7922,2001:558::/32,2001:558:6044::/46
+2a01:e0a:11c:6f90::1,France,Île-de-France,Issy-les-Moulineaux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:11c:4000::/50
+2404:7c80:4c:1a50:62dc:81ff:fecf:3ef1,India,Punjab,Ludhiana,133661,Netplus Broadband Services Private Limited,2404:7c80::/32,2404:7c80:48::/45
+2401:4900:30df:f53e:0:49:540d:cf40,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:30c0::/43,2401:4900:30c0::/43
+2409:8a28:90f9:3752:a221:aaff:fed8:3e27,China,Zhejiang,Taizhou,56041,China Mobile communications corporation,2409:8a28::/32,2409:8a28:9000::/38
+2409:8a62:6c01:c7ca:c8d1:cb5e:5a93:bf49,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:6000::/35
+2a01:e0a:1d1:6520::1,France,Nouvelle-Aquitaine,Bordeaux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1d1:6000::/52
+2a01:e0a:4c5:dbd0::1,France,Auvergne-Rhône-Alpes,La Roche-sur-Foron,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4c5:c000::/50
+2001:4dd0:af09:81c6:de39:6fff:feb0:762e,Germany,North Rhine-Westphalia,Cologne,8422,NetCologne Gesellschaft fur Telekommunikation mbH,2001:4dd0::/29,2001:4dd0:8000::/33
+2409:8a6c:1405:4b47:dd8b:f9cd:71df:e8b8,China,Yunnan,Kunming,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a6c:1000::/36
+2a02:842b:481:3b01::1,France,Grand Est,Épernay,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:480::/46
+2a09:bac2:34c8:14dc::214:77,France,Nouvelle-Aquitaine,Bordeaux,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:34c8::/45
+2409:8a28:df3:1219:a5cb:3ff1:7384:59d5,China,Zhejiang,Hangzhou,56041,China Mobile communications corporation,2409:8a28::/32,2409:8a28:c00::/38
+2409:8a62:2b01:c0ba:e2c5:8fff:fe1e:f5b9,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:2000::/35
+2409:8a62:70b:3496:1a2:9262:f4f7:cbe1,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:400::/38
+2a01:e0a:883:ce90::1,France,Occitanie,Ayguesvives,12322,Free SAS,2a01:e0a:880::/42,2a01:e0a:883:8000::/49
+2a01:e0a:9e1:5c30::1,France,Brittany,Pleurtuit,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9e1:4000::/51
+2a01:e0a:22a:380::1,France,Pays de la Loire,Nantes,12322,Free SAS,2a01:e0a::/38,2a01:e0a:22a::/49
+2401:4900:5810:27fa:0:46:2a00:8840,India,Haryana,Sonīpat,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:5810::/44,2401:4900:5810::/44
+2401:4900:40fd:7167:0:4c:ac4a:ff40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:40f0::/44,2401:4900:40c0::/42
+2a09:bac5:34b1:150f::219:74,France,Île-de-France,Aulnay-sous-Bois,13335,CLOUDFLARENET,2a09:bac5::/34,2a09:bac5:34b0::/45
+2a09:bac3:32dd:18f0::27c:e3,France,Bourgogne-Franche-Comté,Le Creusot,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:32d8::/45
+2a01:e0a:14f:c190::1,France,Île-de-France,Épinay-sur-Seine,12322,Free SAS,2a01:e0a::/38,2a01:e0a:14f:c000::/51
+2409:8a1e:b00d:2bdd:4945:9284:6dda:1646,China,Shanghai,Shanghai,24400,"Shanghai Mobile Communications Co.,Ltd.",2409:8a1e::/31,2409:8a1e:a000::/35
+2a01:e0a:567:120::1,France,Auvergne-Rhône-Alpes,Vienne,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:567::/51
+2a02:842b:83e3:b901::1,France,Île-de-France,Gretz-Armainvilliers,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:8380::/41
+2409:8a0c:1401:1518:a15:aeff:fe31:43f0,China,Shanxi,Taiyuan,56042,China Mobile communications corporation,2409:8a0c::/30,2409:8a0c:1000::/36
+2a01:e0a:283:e0a0::1,France,Hauts-de-France,Maubeuge,12322,Free SAS,2a01:e0a::/38,2a01:e0a:283:e000::/52
+2401:4900:40f0:d123:0:68:7b16:ee40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:40f0::/44,2401:4900:40c0::/42
+2a01:e0a:d9d:1990::1,France,Normandy,Barentin,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d9d::/51
+2a01:e0a:a9f:8e40::1,France,Grand Est,Russ,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a9f:8000::/50
+2409:8a5c:8802:85e5:719d:4014:7365:fb9b,China,Guangxi,Nanning,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c:8000::/33
+2a01:e0a:342:eed0::1,France,Nouvelle-Aquitaine,Châtellerault,12322,Free SAS,2a01:e0a::/38,2a01:e0a:342:e000::/52
+2003:0:8806:d012::1,Germany,notexist,notexist,3320,Deutsche Telekom AG,2003::/25,2003::/30
+2a02:8428:54d:3601:206:91ff:fec3:af1f,France,Île-de-France,La Queue-en-Brie,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428::/37,2a02:8428:54c::/46
+2409:8a0c:9c07:5022:c648:fa98:1ec1:1269,China,Shanxi,Yuncheng,56042,China Mobile communications corporation,2409:8a0c::/30,2409:8a0c:8000::/33
+2a01:e0a:140:e970::1,France,Provence-Alpes-Côte d'Azur,Saint-Laurent-du-Var,12322,Free SAS,2a01:e0a::/38,2a01:e0a:140:8000::/49
+2409:8a5c:2a01:7ed:d9b9:a12a:bddb:2432,China,Guangxi,Guilin,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c:2000::/36
+2a01:e0a:bef:a520::1,France,Hauts-de-France,Méru,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:bef:a000::/51
+2a02:3102:8001:80d9::207,Germany,Baden-Wurttemberg,Karlsruhe,6805,Telefonica Germany,2a02:3102::/31,2a02:3102:8000::/44
+2409:8a6c:305:3ba2:aecb:3642:3130:71,China,Yunnan,Kunming,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a6c::/37
+2a01:e0a:503:3040::,France,Provence-Alpes-Côte d'Azur,Vidauban,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:503::/50
+2401:4900:b84:6347:0:6a:3f13:4540,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:b80::/43,2401:4900:b80::/43
+2a01:e0a:ba:b70::1,France,Normandy,Le Havre,12322,Free SAS,2a01:e0a::/38,2a01:e0a:ba::/50
+2a01:e0a:343:76e0::1,France,Occitanie,Aigrefeuille,12322,Free SAS,2a01:e0a::/38,2a01:e0a:343:7000::/52
+2a01:e0a:407:c940::1,France,Nouvelle-Aquitaine,Royan,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:407:c000::/52
+2a09:bac2:9a88:8c::e:302,United States,notexist,notexist,13335,CLOUDFLARENET,2a09:bac2:9800::/38,2a09:bac2:9a80::/44
+2409:8a44:6a80:6783:44f:2b58:3cdc:b19b,China,Henan,Nanyang,24445,"Henan Mobile Communications Co.,Ltd",2409:8a44::/30,2409:8a44:6000::/36
+240e:3b0:f120:3091:8674:60c5:5d9f:7911,China,notexist,notexist,4134,Chinanet,240e:3b0:e000::/35,240e:3b0::/32
+2a01:e0a:e38:90::1,France,Hauts-de-France,Provin,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:e38::/48
+2a09:bac2:3c48:a82::10c:2a,India,Haryana,Ambāla,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3c48::/45
+2a01:e0a:169:cdb0::1,France,Occitanie,Toulouse,12322,Free SAS,2a01:e0a::/38,2a01:e0a:169:c000::/52
+240e:3b0:5a02:2f97:2bd:821c:6223:5278,China,notexist,notexist,4134,Chinanet,240e:3b0:4000::/34,240e:3b0::/32
+2a02:842a:84d1:2501::1,France,Hauts-de-France,Soissons,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:84d0::/45
+2a02:842b:500:8c01::1,France,Auvergne-Rhône-Alpes,Valence,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:500::/44
+2a01:e0a:229:c210::1,France,Île-de-France,Saint-Pierre-du-Perray,12322,Free SAS,2a01:e0a::/38,2a01:e0a:229:c000::/50
+2a01:e0a:bed:b560::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:bed:a000::/51
+2a01:e0a:5c9:acd0::1,France,Provence-Alpes-Côte d'Azur,Nice,12322,Free SAS,2a01:e0a:5c0::/44,2a01:e0a:5c9:a000::/51
+2409:8a62:3404:c1f:6d07:5bfa:c1db:2dfc,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:2000::/35
+2a01:e0a:3a7:c2a0::1,France,Hauts-de-France,Abbeville,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3a7:c000::/51
+2a02:842b:8869:de01:5e7b:5cff:feb1:ff24,France,Grand Est,Strasbourg,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:8800::/39
+2a01:e0a:354:fa80::1,France,Centre-Val de Loire,Fleury-les-Aubrais,12322,Free SAS,2a01:e0a::/38,2a01:e0a:354:e000::/51
+2001:558:6011:c0:89fa:92b8:7a99:f7d9,United States,Georgia,Tucker,7922,COMCAST-7922,2001:558::/32,2001:558:6010::/47
+240e:360:1801:319b:aab4:834a:bbc7:7f52,China,Anhui,Wuhu,4134,Chinanet,240e:360::/28,240e:360::/33
+2a02:8429:81f4:9301:50dd:4dff:fe91:bdff,France,Provence-Alpes-Côte d'Azur,Marignane,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:81c0::/42,2a02:8429:81f4::/46
+2a01:e0a:a03:7430::1,France,Hauts-de-France,Ailly-sur-Somme,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a03:4000::/50
+2a01:cb11:2d6:6700:c910:ad3c:1961:3b8d,France,Grand Est,Sarreguemines,3215,Orange,2a01:cb11::/32,2a01:cb11:280::/41
+2a01:e0a:a8a:3030::1,France,Île-de-France,Domont,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a8a:3000::/52
+2a01:e0a:833:ae80::1,France,Occitanie,Ponteilla,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:833:8000::/49
+2a01:e0a:244:5710::1,France,Bourgogne-Franche-Comté,Beaune,12322,Free SAS,2a01:e0a::/38,2a01:e0a:244:5000::/52
+2409:8a02:5402:321a:58d8:3049:aabe:68c7,China,Tianjin,Tianjin,38019,tianjin Mobile Communication Company Limited,2409:8a02::/32,2409:8a02:4000::/34
+2a01:e0a:291:62f0::1,France,Grand Est,Strasbourg,12322,Free SAS,2a01:e0a::/38,2a01:e0a:291:6000::/52
+2a01:e0a:ec0:51d0::1,France,Bourgogne-Franche-Comté,Saint-Claude,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:ec0::/49
+2a01:e0a:b46:6a00::1,France,Brittany,Vannes,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b46:6000::/51
+2a01:e0a:d2c:b820::1,France,Hauts-de-France,Calais,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d2c:b000::/52
+2a01:e0a:a60:77b0::1,France,Provence-Alpes-Côte d'Azur,Roquefort-les-Pins,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a60:7000::/52
+2a09:bac3:347a:be::13:259,France,notexist,notexist,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:347a::/47
+2a01:e0a:165:450::1,France,Hauts-de-France,Compiègne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:165::/50
+2a02:8429:81cf:6501::1,France,Auvergne-Rhône-Alpes,Lyon,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:81c0::/42,2a02:8429:81c0::/44
+2a09:bac5:34b1:14f0::216:aa,France,Île-de-France,Aulnay-sous-Bois,13335,CLOUDFLARENET,2a09:bac5::/34,2a09:bac5:34b0::/45
+2409:8a62:9901:9c3e:6a8b:fff:fe50:b079,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:8000::/34
+2a09:bac3:a7a2:1973::289:96,United States,New York,Baldwin,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:a7a2::/47
+2a01:e0a:397:9ea0::1,France,Auvergne-Rhône-Alpes,Le Passage,12322,Free SAS,2a01:e0a::/38,2a01:e0a:397:8000::/50
+2401:4900:1260:6168:1:1:404f:7f59,India,Meghalaya,Shillong,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:1260::/44,2401:4900:1200::/40
+2a00:1398:b::8d03:809a,Germany,Baden-Wurttemberg,Karlsruhe,34878,Karlsruhe Institute of Technology,2a00:1398::/31,2a00:1398::/38
+2409:8a20:8802:3190:2e56:83ff:feff:eef,China,Jiangsu,Nanjing,56046,China Mobile communications corporation,2409:8a20::/32,2409:8a20:8000::/36
+2a09:bac2:d037:197d::28a:73,United States,West Virginia,Lost City,13335,CLOUDFLARENET,2a09:bac2:d000::/36,2a09:bac2:d030::/45
+2a01:e0a:a4f:f7a0::1,France,Provence-Alpes-Côte d'Azur,Gardanne,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a4f:e000::/51
+2a01:e0a:3af:c2d0::1,France,Centre-Val de Loire,Mainvilliers,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3af:c000::/52
+2a01:e0a:915:4f50::1,France,Nouvelle-Aquitaine,La Rochelle,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:915:4000::/50
+2a09:bac3:96f0:8c::e:32b,United States,Mississippi,Natchez,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:96f0::/45
+2a01:e0a:48f:74b0::1,France,Île-de-France,Génicourt,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:48f:4000::/50
+2a09:bac3:347d:14dc::214:6c,France,Île-de-France,Paris,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:347c::/47
+2a09:bac2:6e18:e6e::170:36,United States,Florida,Hollywood,13335,CLOUDFLARENET,2a09:bac2:6000::/36,2a09:bac2:6e18::/47
+2a01:e0a:9b1:6070::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9b1:6000::/52
+2401:4900:4717:6751:0:1f:6465:c40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4700::/43,2401:4900:4700::/40
+2a00:7ee0:8:0:3:57:0:edd,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a09:bac3:3428:1519::21a:5c,France,Hauts-de-France,Lille,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3428::/45
+2409:8a62:6601:67b:d67e:e4ff:fe18:ffe9,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:6000::/35
+2001:558:6045:11f:4992:27d:ecff:fb6f,United States,California,Alameda,7922,COMCAST-7922,2001:558::/32,2001:558:6044::/46
+2a01:e0a:564:3e0::1,France,Île-de-France,Lieusaint,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:564::/52
+2a09:bac2:32c6:1519::21a:8b,France,Bourgogne-Franche-Comté,Dijon,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:32c0::/45
+2a01:e0a:91d:bb60::1,France,Hauts-de-France,Longuenesse,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:91d:8000::/50
+2a01:e0a:8f2:ef20::1,France,Île-de-France,Sceaux,12322,Free SAS,2a01:e0a:8e0::/43,2a01:e0a:8f2:8000::/49
+2a01:e0a:13:d40::1,France,Auvergne-Rhône-Alpes,Seyssins,12322,Free SAS,2a01:e0a::/38,2a01:e0a:13::/51
+2001:bc8:6005:1b:dac4:97ff:fe2a:32d4,France,notexist,notexist,12876,Scaleway S.a.s.,2001:bc8::/32,2001:bc8:6000::/44
+2409:8a5c:c802:2419:1986:504e:d1e9:3223,China,Guangxi,Nanning,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c:8000::/33
+2a09:bac2:2e79:2f0::4b:7b,Germany,Schleswig-Holstein,Flensburg,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:2e78::/45
+2401:4900:313c:3bd6:0:17:94b7:4a40,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2a09:bac3:34df:1478::20a:20,France,Nouvelle-Aquitaine,La Rochelle,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:34d8::/45
+2a01:e0a:2e1:a6f0::1,France,Hauts-de-France,La Chapelle-dArmentières,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2e1:a000::/52
+2a01:e0a:294:bf0::1,France,Occitanie,Villeneuve-lès-Maguelone,12322,Free SAS,2a01:e0a::/38,2a01:e0a:294::/51
+2001:1a50:11:60:225:90ff:fe94:90b0,Germany,notexist,notexist,25560,rh-tec Business GmbH,2001:1a50::/32,2001:1a50::/32
+2a01:e0a:2cd:63c0::1,France,Nouvelle-Aquitaine,La Rochelle,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2cd:6000::/52
+2401:4900:40fd:45bb:0:66:cd78:f540,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:40f0::/44,2401:4900:40c0::/42
+2a01:7700:0:1036::1:52,Germany,notexist,notexist,15372,IBH IT-Service GmbH,2a01:7700::/32,2a01:7700::/32
+2a01:e0a:3e1:2760::1,France,Auvergne-Rhône-Alpes,Poisy,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3e1:2000::/52
+2a00:1e:7e01:f900::1,Germany,North Rhine-Westphalia,Voerde,3209,Vodafone GmbH,2a00::/27,2a00:1e:7e00::/41
+2604:2d80:ed00:4700::1,United States,California,Lakeport,30036,MEDIACOM-ENTERPRISE-BUSINESS,2604:2d80:e800::/37,2604:2d80:ed00::/43
+2600:4808:3000::4e8,United States,New York,Great Neck,6128,CABLE-NET-1,2600:4800::/28,2600:4808:3000::/44
+2a09:bac3:94a6:1cd2::2df:32,United States,Illinois,Chicago,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:94a0::/45
+2a09:bac2:344b:187::27:a9,France,Hauts-de-France,Creil,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3448::/45
+240e:360:a202:5f1d:de4b:dd6b:16c8:42b2,China,Anhui,Fuyang,4134,Chinanet,240e:360::/28,240e:360:a000::/35
+2a09:bac3:aba3:2446::39d:68,United States,Ohio,Dayton,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:aba0::/45
+2a02:842b:1c6:4b01::1,France,Normandy,Elbeuf,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:1c0::/45
+2a01:e0a:1f2:19b0::1,France,Île-de-France,Asnières-sur-Seine,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1f2::/49
+2a01:e0a:98:b1d0::1,France,Normandy,Caen,12322,Free SAS,2a01:e0a::/38,2a01:e0a:98:a000::/51
+2a09:bac2:3479:14f0::216:79,France,Île-de-France,Paris,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3479::/48
+2a09:bac3:a649:6e::b:22b,United States,notexist,notexist,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:a648::/45
+2409:8a30:4404:182:c648:fa89:dae3:25c5,China,Anhui,Anqing,9808,"China Mobile Communications Group Co., Ltd.",2409:8a30::/29,2409:8a30:4000::/36
+2a01:e0a:104:78b0::1,France,Île-de-France,Maisons-Alfort,12322,Free SAS,2a01:e0a::/38,2a01:e0a:104:7000::/52
+2409:8a62:2e02:2f67:7923:a92f:dd94:b21e,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:2000::/35
+2401:4900:471f:8966:0:3:a949:9040,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4700::/43,2401:4900:4700::/40
+2a01:e0a:566:4ec0::1,France,Île-de-France,Champigny-sur-Marne,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:566:4000::/51
+2001:8d8:5ff:5f:82:165:88:105,Germany,notexist,notexist,8560,IONOS SE,2001:8d8::/32,2001:8d8::/37
+2001:8d8:84b:1939:5e5e:353e:65b8:0,France,notexist,notexist,8560,IONOS SE,2001:8d8::/32,2001:8d8:800::/41
+2001:558:6017:d8:5182:b0d9:7dd6:62e2,United States,Massachusetts,Arlington,7922,COMCAST-7922,2001:558::/32,2001:558:6017:c0::/58
+2a03:90c0:94:ffff::419,Germany,Hesse,Frankfurt am Main,199524,G-Core Labs S.A.,2a03:90c0:80::/41,2a03:90c0:90::/44
+2409:8a38:6202:38b1:6029:7ee1:38a2:a7fc,China,Jiangxi,Yichun,9808,"China Mobile Communications Group Co., Ltd.",2409:8a38::/30,2409:8a38:6000::/35
+2a01:e0a:b65:ecd0::1,France,Centre-Val de Loire,Salbris,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b65:e000::/51
+2a01:e0a:2a2:5100::1,France,Île-de-France,Meaux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2a2:4000::/50
+2401:4900:30d4:b337:0:60:87d6:4d40,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:30c0::/43,2401:4900:30c0::/43
+2a01:e0a:ab5:db0::1,France,Normandy,Landelles-et-Coupigny,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:ab5::/51
+2a01:e0a:298:7c10::1,France,Nouvelle-Aquitaine,Anglet,12322,Free SAS,2a01:e0a::/38,2a01:e0a:298:7000::/52
+2409:8a28:4ef7:11e4:67e:2367:14a4:c7a1,China,Zhejiang,Shaoxing,56041,China Mobile communications corporation,2409:8a28::/32,2409:8a28:4000::/36
+2a09:bac5:3e53:18c8::278:5d,India,Maharashtra,Chinchvad,13335,CLOUDFLARENET,2a09:bac5::/34,2a09:bac5:3e50::/45
+2001:41d0:800:2203::158,France,notexist,notexist,16276,OVH SAS,2001:41d0:800::/37,2001:41d0:800:2000::/54
+2a03:fc82:100:935a:1eed:6fb8:77b:65be,Germany,notexist,notexist,15366,DNS:NET Internet Service GmbH,2a03:fc80::/29,2a03:fc82::/39
+2a04:9740:a5:a64a:e228:6dff:fe68:abdf,Germany,North Rhine-Westphalia,Vreden,196954,Epcan GmbH,2a04:9740::/29,2a04:9740::/38
+2a01:e0a:d11:1580::1,France,Grand Est,Rosheim,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d11::/51
+2a01:e0a:db7:2070::1,France,Auvergne-Rhône-Alpes,Chambéry,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:db7::/50
+2a05:9402:0:4:f5fd:3:0:4a9b,United States,California,Los Angeles,204957,Green Floid LLC,2a05:9400::/30,2a05:9402::/32
+2a00:7ee0:8:0:3:99:0:3a1,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a01:e0a:1fc:9000::1,France,Île-de-France,Issy-les-Moulineaux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1fc:9000::/52
+2a00:6020:0:e::1,Germany,North Rhine-Westphalia,Rosendahl,60294,Deutsche Glasfaser Wholesale GmbH,2a00:6020::/33,2a00:6020::/36
+2401:4900:3132:a2c0:0:5e:24a8:7f40,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2a01:e0a:200:8b70::1,France,Île-de-France,Fontenay-sous-Bois,12322,Free SAS,2a01:e0a::/38,2a01:e0a:200:8000::/52
+2601:cd:cd00:47da::,United States,Georgia,Cumming,7922,COMCAST-7922,2601:c8::/29,2601:cd:cd00:4000::/50
+2001:67c:2219:751::12,France,notexist,notexist,2485,AFNIC (Association Francaise pour le Nommage Internet en Cooperation),2001:67c:2218::/47,2001:67c:2218::/47
+2a01:488:42:1000:50ed:84ea:41:c81a,Germany,notexist,notexist,20773,Host Europe GmbH,2a01:488::/33,2a01:488::/33
+2a01:e0a:1dc:85c0::1,France,Pays de la Loire,Nantes,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1dc:8000::/52
+2a02:8429:ec80:4101:6aaa:c4ff:fec3:a78f,France,Bourgogne-Franche-Comté,Aubigney,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:c000::/34,2a02:8429:ec00::/39
+2a01:e0a:1ea:a5c0::1,France,Auvergne-Rhône-Alpes,Aulnat,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ea:8000::/50
+2a01:e0a:189:4c0::1,France,Auvergne-Rhône-Alpes,Saint-Etienne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:189::/50
+2600:4808:6060::4d9,United States,New York,Brooklyn,6128,CABLE-NET-1,2600:4800::/28,2600:4808:6060::/44
+2a01:e0a:49e:5b50::1,France,Île-de-France,Combs-la-Ville,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:49e:4000::/51
+2a01:e0a:9de:2890::1,France,Île-de-France,La Courneuve,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9de::/48
+2a01:e0a:5e9:7e30::1,France,Hauts-de-France,Wavrin,12322,Free SAS,2a01:e0a:5e0::/43,2a01:e0a:5e9:4000::/50
+2a01:e0a:120:af70::1,France,Grand Est,Mulhouse,12322,Free SAS,2a01:e0a::/38,2a01:e0a:120:a000::/51
+2a02:8429:ddee:d001:6e38:a1ff:fe99:b29f,France,Île-de-France,Paris,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:c000::/34,2a02:8429:dd00::/40
+2a01:e0a:1f:b2f0::1,France,Pays de la Loire,Angers,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1f:a000::/51
+2401:4900:312c:5bfa:5edb:aff3:e73a:e88c,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2401:4900:41a5:f575:0:3a:6ede:1b40,India,Rajasthan,Jaipur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4180::/41,2401:4900:4180::/41
+2a01:e0a:161:60a0::1,France,Provence-Alpes-Côte d'Azur,Saint-Raphaël,12322,Free SAS,2a01:e0a::/38,2a01:e0a:161:6000::/52
+2a01:e0a:8c5:a2a0::1,France,Hauts-de-France,Beauvais,12322,Free SAS,2a01:e0a:8c0::/44,2a01:e0a:8c5:a000::/51
+2a01:e0a:946:5d50::1,France,Nouvelle-Aquitaine,Dignac,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:946:5000::/52
+2a02:842a:ff:c101::1,France,Nouvelle-Aquitaine,Bordeaux,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:f8::/45
+2a01:488:42:1000:50ed:8426:ff5f:c779,Germany,notexist,notexist,20773,Host Europe GmbH,2a01:488::/33,2a01:488::/33
+2a01:e0a:20f:3e30::1,France,Occitanie,Toulouse,12322,Free SAS,2a01:e0a::/38,2a01:e0a:20f::/50
+2a00:7ee0:8:0:3:111:0:1b0,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a01:e0a:86d:ac60::1,France,Normandy,Donville-les-Bains,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:86d:8000::/50
+2a09:bac2:347e:1478::20a:64,France,Île-de-France,Paris,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:347e::/47
+2a09:bac2:3448:150f::219:7e,France,Hauts-de-France,Creil,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3448::/45
+2a01:e0a:28f:e1b0::1,France,Île-de-France,Morangis,12322,Free SAS,2a01:e0a::/38,2a01:e0a:28f:e000::/52
+2003:f6:afff:2f88:6b4:feff:fe9b:ad0,Germany,Saxony,Dresden,3320,Deutsche Telekom AG,2003:f6:8000::/33,2003:f6:a800::/37
+2a02:842a:86c8:3a01::1,France,Provence-Alpes-Côte d'Azur,Grasse,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:86c0::/43
+2a01:e0a:3fd:bd10::1,France,Bourgogne-Franche-Comté,Talant,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3fd:b000::/52
+2a01:e0a:3ba:9cb0::1,France,Provence-Alpes-Côte d'Azur,Villeneuve-Loubet,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3ba:9000::/52
+2a01:e0a:c97:7ae0::1,France,Nouvelle-Aquitaine,Montpon-Ménestérol,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:c97:7000::/52
+2001:470:1f0a:3ce::1,United States,notexist,notexist,6939,HURRICANE,2001:470:1000::/36,2001:470:1f0a:300::/56
+2409:8a04:4e01:1931:5c98:2b89:6821:8255,China,Hebei,Baoding,24547,Hebei Mobile Communication Company Limited,2409:8a04::/31,2409:8a04:4000::/34
+2409:8a5c:3803:c59:40e2:d4b2:7266:775,China,Guangxi,Guilin,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c:3000::/36
+2a01:e01:7:1724:fe00::e656,France,notexist,notexist,12322,Free SAS,2a01:e00::/29,2a01:e00::/29
+2401:4900:b92:a694:0:25:a439:ab40,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:b80::/43,2401:4900:b80::/43
+2409:8a44:7d40:1548:1aaa:1eff:fe96:1479,China,Henan,Nanyang,24445,"Henan Mobile Communications Co.,Ltd",2409:8a44::/30,2409:8a44:7800::/37
+240e:390:aa70:1693:be62:e35:dca1:65f4,China,Zhejiang,Taizhou,4134,Chinanet,240e:390:8000::/33,240e:390:8000::/34
+2a01:e0a:4ed:a260::1,France,Hauts-de-France,Margny-lès-Compiègne,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4ed:8000::/50
+2a01:e0a:2ea:5570::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2ea:4000::/50
+2003:eb:f7ff:901:ed6:bdff:fed0:3ee4,Germany,Bavaria,Waldkirchen,3320,Deutsche Telekom AG,2003:eb::/32,2003:eb:f400::/38
+2a09:bac2:7e98:1cd2::2df:90,United States,New Jersey,Fairview,13335,CLOUDFLARENET,2a09:bac2:7c00::/38,2a09:bac2:7e98::/45
+2409:8a20:420c:1ee4:1aaa:1eff:fe8a:c68f,China,Jiangsu,Changzhou,56046,China Mobile communications corporation,2409:8a20::/32,2409:8a20:4000::/38
+2001:558:6011:3b:7899:9fcf:f0ea:8986,United States,Georgia,Tucker,7922,COMCAST-7922,2001:558::/32,2001:558:6010::/47
+2001:41d0:701:1000::c49,France,notexist,notexist,16276,OVH SAS,2001:41d0:701::/48,2001:41d0:701:1000::/56
+2a02:8428:3584:8501:6e38:a1ff:fefa:75bf,France,Provence-Alpes-Côte d'Azur,Draguignan,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:2000::/35,2a02:8428:3580::/43
+2a01:e0a:56c:4ef0::1,France,Île-de-France,Chelles,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:56c:4000::/52
+2a09:bac3:34f3:150f::219:77,France,Nouvelle-Aquitaine,Parthenay,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:34f0::/45
+2a01:e0a:2e1:8cb0::1,France,Hauts-de-France,Linselles,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2e1:8000::/51
+2a01:e0a:856:3980::1,France,Île-de-France,Gennevilliers,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:856::/50
+2a02:842a:2f60:901::1,France,Hauts-de-France,Lille,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:2f40::/42
+2a01:e0a:5bd:8510::1,France,Grand Est,Revigny-sur-Ornain,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:5bd:8000::/52
+2a01:e0a:26:2a70::64,France,Île-de-France,Pontoise,12322,Free SAS,2a01:e0a::/38,2a01:e0a:26:2000::/51
+2409:8a5e:5a06:d34:7ac3:138b:e6c:172a,China,Hainan,Haikou,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5e::/32
+2a01:e0a:12c:1df0::1,France,Île-de-France,La Courneuve,12322,Free SAS,2a01:e0a::/38,2a01:e0a:12c::/51
+2a01:e0a:974:9c60::1,France,Pays de la Loire,Le Mans,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:974:8000::/50
+2a02:842a:db2c:1401:6aaa:c4ff:fe09:9a3f,France,Occitanie,Montner,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:db00::/40
+2a01:e0a:5f2:5730::1,France,Hauts-de-France,Vermelles,12322,Free SAS,2a01:e0a:5e0::/43,2a01:e0a:5f2:5000::/52
+2a02:3100:5205:57b2:54c8:f23b:818f:2b67,Germany,Baden-Wurttemberg,Laudenbach,6805,Telefonica Germany,2a02:3100:5000::/37,2a02:3100:5000::/38
+2001:19f0:8000:1fcf:5400:5ff:fe25:c6b5,United States,Washington,Kent,20473,AS-VULTR,2001:19f0:8000::/38,2001:19f0:8000::/38
+2401:4900:3f00:474b:0:4f:4d79:f340,India,notexist,notexist,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3f00::/42,2401:4900:3f00::/41
+2a01:e0a:2b3:8500::1,France,Provence-Alpes-Côte d'Azur,Nice,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2b3:8000::/50
+2a01:e0a:1ad:a80::1,France,Île-de-France,Aubergenville,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ad::/52
+2a01:e0a:b80:16d0::1,France,Auvergne-Rhône-Alpes,Lyon,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b80:1000::/52
+2003:c2:c7ff:b4c:964a:cff:fe72:7509,Germany,Bavaria,Lauf an der Pegnitz,3320,Deutsche Telekom AG,2003:c2::/32,2003:c2:c400::/38
+2a01:e0a:c2a:d9c0::1,France,Occitanie,Saint-Nazaire-d'Aude,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:c2a::/47
+2a09:bac3:a852:1973::289:a6,United States,Ohio,Tiffin,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:a850::/45
+2409:8a5c:1a0a:c87:69a9:6e43:d8a8:f163,China,Guangxi,Nanning,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c:1800::/37
+2a09:bac2:3592:14f0::216:33,France,Occitanie,Villefranche-de-Lauragais,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3590::/45
+2a01:e0a:b9f:a880::1,France,Grand Est,Vandœuvre-lès-Nancy,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b9f:a000::/51
+2409:8a6a:431:67f1:5891:5348:2406:1838,China,Guizhou,Guiyang,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a6a::/37
+2a09:bac3:9cef:2446::39d:25,United States,North Carolina,Wilmington,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:9ce8::/45
+2a09:bac2:b2be:1791::259:a5,United States,Pennsylvania,Coudersport,13335,CLOUDFLARENET,2a09:bac2:b000::/36,2a09:bac2:b2b8::/45
+2001:41d0:403:2b13::1028,France,notexist,notexist,16276,OVH SAS,2001:41d0:400::/39,2001:41d0:402::/47
+2a01:e34:ec49:3320::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec40::/42,2a01:e34:ec48::/46
+2a01:e0a:297:adc0::1,France,Île-de-France,Cergy,12322,Free SAS,2a01:e0a::/38,2a01:e0a:297:8000::/50
+2a01:e0a:d86:6510::1,France,Nouvelle-Aquitaine,Lussas-et-Nontronneau,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d86:6000::/52
+240e:350:8603:d466:5ea1:76ca:ffa5:baa4,China,notexist,notexist,4134,Chinanet,240e:350:8000::/33,240e:350::/32
+2a01:e0a:acc:51e0::1,France,Auvergne-Rhône-Alpes,Marignier,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:acc:4000::/50
+2600:387:15:3517::c,United States,Washington,notexist,7018,ATT-INTERNET4,2600:387:15::/48,2600:387:15:3510::/60
+2a00:d0c0:200:0:b9:1a:9c:90,Germany,notexist,notexist,58010,uvensys GmbH,2a00:d0c0::/36,2a00:d0c0::/32
+2a01:e0a:850:df00::1,France,Hauts-de-France,Vimy,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:850:c000::/50
+2a01:e0a:e79:f480::1,France,Auvergne-Rhône-Alpes,Saint-Clair-du-Rhône,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:e79:e000::/51
+2a01:e0a:34f:f950::1,France,Île-de-France,Wissous,12322,Free SAS,2a01:e0a::/38,2a01:e0a:34f:f000::/52
+2a01:e0a:e:18a0::1,France,Bourgogne-Franche-Comté,Dijon,12322,Free SAS,2a01:e0a::/38,2a01:e0a:e::/50
+2a01:e0a:32f:6340::1,France,Provence-Alpes-Côte d'Azur,Levens,12322,Free SAS,2a01:e0a::/38,2a01:e0a:32f:6000::/51
+2a09:bac3:31f7:14dc::214:9c,France,Brittany,Rennes,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:31f0::/45
+2401:4900:312e:ac76:0:67:76:b840,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2606:cd80:0:193e::1,United States,notexist,notexist,394727,NODISTO,2606:cd80::/48,2606:cd80::/32
+2401:4900:527f:e6a4:0:20:4fe8:5840,India,Rajasthan,Jaipur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:5270::/44,2401:4900:5240::/42
+2a01:e0a:427:c440::1,France,Auvergne-Rhône-Alpes,Saint-Péray,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:427:c000::/50
+2003:ef:1fff:766:e228:6dff:fe7c:3b86,Germany,Baden-Wurttemberg,Freudenstadt,3320,Deutsche Telekom AG,2003:ef::/32,2003:ef:1800::/37
+2401:4900:b9f:8309:0:52:d2ff:7240,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:b80::/43,2401:4900:b80::/43
+2409:8a5c:1a0a:af2:72ac:d7ff:fe9d:8ce1,China,Guangxi,Nanning,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c:1800::/37
+2401:4900:40f5:9d5a:0:48:8a58:6b40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:40f0::/44,2401:4900:40c0::/42
+2a01:e0a:1cf:eb20::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1cf:e000::/51
+2a09:bac3:3568:150f::219:ba,France,Normandy,Rouen,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3568::/45
+2a01:e0a:3af:2bc0::1,France,Hauts-de-France,Boves,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3af:2000::/51
+2a02:842b:1a60:4401::1,France,Nouvelle-Aquitaine,Barbezieux-Saint-Hilaire,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:1800::/38
+2a09:bac3:b005:1caa::2db:25,United States,Oregon,Portland,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:b000::/45
+2a01:e0a:56f:4070::1,France,Centre-Val de Loire,Orléans,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:56f::/49
+2600:6c40:700e:100:2872:a9bf:f7f8:4ba6,United States,Missouri,St Louis,20115,CHARTER-20115,2600:6c40:7000::/40,2600:6c40:700e:100::/64
+2a01:e0a:c20:3c30::1,France,Provence-Alpes-Côte d'Azur,Menton,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:c20:2000::/51
+2a02:8429:4e79:4301:5afc:20ff:fe66:19ef,France,Provence-Alpes-Côte d'Azur,Châteaurenard,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429::/33,2a02:8429:4e00::/41
+2a09:bac3:3277:ebe::178:70,France,Auvergne-Rhône-Alpes,Annecy,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3270::/45
+2a01:e0a:d7:1460::1,France,Nouvelle-Aquitaine,Niort,12322,Free SAS,2a01:e0a::/38,2a01:e0a:d7:1000::/52
+2a01:e0a:4b3:2000::1,France,Île-de-France,Cergy,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4b3:2000::/52
+2a01:e0a:133:5040::1,France,Île-de-France,Sannois,12322,Free SAS,2a01:e0a::/38,2a01:e0a:133:4000::/50
+2a09:bac3:8918:1678::23d:59,United States,Maryland,Baltimore,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:8918:1000::/52
+2a01:e0a:200:9110::1,France,Auvergne-Rhône-Alpes,Aix-les-Bains,12322,Free SAS,2a01:e0a::/38,2a01:e0a:200:9000::/52
+2a02:8429:8786:8901::1,France,Centre-Val de Loire,Baudreville,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:8400::/38,2a02:8429:8400::/38
+2a01:e0a:48a:1b60::1,France,Île-de-France,Saint-Leu-la-Forêt,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:48a::/50
+2a09:bac2:32c6:be::13:21e,France,Bourgogne-Franche-Comté,Dijon,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:32c0::/45
+2401:4900:446b:139:0:72:65e2:c440,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4460::/44,2401:4900:4460::/44
+2a09:bac1:27e0:2088::215:b1,France,Auvergne-Rhône-Alpes,Chamonix,13335,CLOUDFLARENET,2a09:bac1::/32,2a09:bac1:27e0:2088::/64
+2a01:e0a:1f1:53b0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1f1:4000::/50
+2a01:e0a:bfa:3ba0::1,France,Auvergne-Rhône-Alpes,Annemasse,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:bfa:2000::/51
+2a09:bac2:324f:150f::219:ac,France,Auvergne-Rhône-Alpes,Oyonnax,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3248::/45
+2401:4900:4725:d69e:0:45:bfc5:1840,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4720::/44,2401:4900:4700::/40
+2a02:3100:720b:76fa:52e6:36ff:fe31:5af6,Germany,Free and Hanseatic City of Hamburg,Hamburg,6805,Telefonica Germany,2a02:3100:6000::/35,2a02:3100:7000::/38
+2001:558:6020:1b3:187a:d906:143b:f4cf,United States,Maryland,Baltimore,7922,COMCAST-7922,2001:558::/32,2001:558:6020::/47
+2a01:e0a:9cc:c7f0::1,France,Bourgogne-Franche-Comté,Besançon,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9cc::/48
+2607:f8b0:4002:c2c::a4,United States,Georgia,notexist,15169,GOOGLE,2607:f8b0::/32,2607:f8b0:4002::/48
+2409:8a6c:3c06:3377:2296:8a32:cd69:3569,China,Yunnan,Kunming,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a6c:2000::/35
+2001:41d0:303:3aee::97,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:303::/50
+2a05:5800:300:b840:cece:1eff:fe5d:f087,Germany,Baden-Wurttemberg,Bad Krozingen,200924,Stiegeler Internet Service GmbH,2a05:5800::/29,2a05:5800::/38
+2402:3a80:166c:6a70:0:1:95d0:4740,India,Maharashtra,Mumbai,38266,Vodafone Idea Ltd,2402:3a80:1640::/42,2402:3a80:1640::/42
+2001:41d0:302:c40::1e,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:302::/48
+2a09:bac2:344b:14dc::214:6f,France,Hauts-de-France,Creil,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3448::/45
+2a01:e0a:113:3980::1,France,Île-de-France,Bry-sur-Marne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:113:2000::/51
+2a01:e0a:9b5:d4c0::1,France,Occitanie,Coursan,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9b5:c000::/51
+2a01:e0a:aa9:bb10::1,France,Normandy,Douvres-la-Délivrande,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:aa9:8000::/50
+2a02:842b:8438:a701:6e38:a1ff:fe8b:cdef,France,Île-de-France,Saint-Germain-lès-Arpajon,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:8438::/45
+2600:387:f:a32::5,United States,Florida,Winter Haven,7018,ATT-INTERNET4,2600:387:c::/46,2600:387:f:a00::/56
+2a01:e35:39f1:4050::1,France,Île-de-France,Courbevoie,12322,Free SAS,2a01:e35::/32,2a01:e35:39f1::/49
+2600:1f18:1937:7e00:7ba9:27db:8716:58a2,United States,Virginia,Ashburn,14618,AMAZON-AES,2600:1f18::/33,2600:1f18::/33
+2a01:e0a:5ba:4290::1,France,Occitanie,Béziers,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:5ba:4000::/51
+2401:4900:5816:1dc7:0:3a:2870:6040,India,Haryana,Sonīpat,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:5810::/44,2401:4900:5810::/44
+2a01:e0a:17f:80d0::1,France,Île-de-France,Châtenay-Malabry,12322,Free SAS,2a01:e0a::/38,2a01:e0a:17f:8000::/51
+2a09:bac3:7c06:1923::281:5c,United States,Florida,Tampa,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:7c06::/47
+2a01:e0a:5b8:be70::1,France,Occitanie,Montferrier-sur-Lez,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:5b8:a000::/51
+2a01:e0a:1fe:1b60::1,France,Pays de la Loire,Les Sorinières,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1fe:1000::/52
+2a03:4000:61:3a90::18:2101,Germany,Bavaria,Nuremberg,197540,netcup GmbH,2a03:4000:60::/46,2a03:4000:60::/46
+2a09:bac2:7c3e:8c::e:2df,United States,Indiana,Muncie,13335,CLOUDFLARENET,2a09:bac2:7c00::/38,2a09:bac2:7c38::/45
+2a01:e0a:9a1:c750::1,France,Nouvelle-Aquitaine,Matha,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9a1:c000::/51
+2a09:bac2:31c0:be::13:267,France,Provence-Alpes-Côte d'Azur,Nice,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:31c0::/45
+2409:8a6c:2006:389:5fe:d8ea:a460:5bfa,China,Yunnan,Kunming,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a6c:2000::/35
+2a00:1e:7e80:ab00::1,Germany,North Rhine-Westphalia,Jülich,3209,Vodafone GmbH,2a00::/27,2a00:1e:7e80::/41
+2401:4900:3108:7ac:0:50:b7f6:6840,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2a01:e0a:1c2:5400::1,France,Île-de-France,Trappes,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1c2::/49
+2401:4900:40fc:b7d0:0:4f:e33c:840,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:40f0::/44,2401:4900:40c0::/42
+2001:41d0:a:6f45::,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:a:4000::/50
+2a02:8429:8198:4001:6e38:a1ff:fe8e:49bf,France,Provence-Alpes-Côte d'Azur,Marseille,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:8198::/45,2a02:8429:8198::/45
+2a01:e0a:55:600::1,France,Brittany,Brest,12322,Free SAS,2a01:e0a::/38,2a01:e0a:55::/51
+2a01:e0a:3f6:bbd0::1,France,Île-de-France,Choisy-le-Roi,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3f6:a000::/51
+2003:e9:9fff:133f:464e:6dff:fe52:abd,Germany,Bavaria,Grafenau,3320,Deutsche Telekom AG,2003:e9::/32,2003:e9:9c00::/38
+2610:a8:1801:63::2,United States,notexist,notexist,600,OARNET-AS,2610:a8::/32,2610:a8::/32
+2a01:e0a:844:4f00::1,France,Provence-Alpes-Côte d'Azur,Salon-de-Provence,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:844:4000::/52
+2a01:e0a:940:eed0::1,France,Île-de-France,Boissy-Saint-Léger,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:940:c000::/50
+2a02:810d:8000:53::41c,Germany,Bavaria,Amberg,3209,Vodafone GmbH,2a02:810d:8000::/33,2a02:810d:8000:40::/58
+2a01:e0a:1ba:5700::1,France,Île-de-France,Bagneux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ba:5000::/52
+2a01:e0a:dae:46a0::1,France,Grand Est,Hayange,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:dae:4000::/51
+2a01:e0a:c03:520::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:c03::/51
+2409:8a55:2304:d1e:c089:5fb5:f2b7:8d86,China,Guangdong,Zhuhai,9808,"China Mobile Communications Group Co., Ltd.",2409:8a55:2000::/37,2409:8a55:2000::/37
+2a09:bac2:c1d8:1923::281:47,United States,Texas,Killeen,13335,CLOUDFLARENET,2a09:bac2:c000::/37,2a09:bac2:c1d8::/45
+240e:338:3802:90f:5558:911b:89be:deb2,China,Guizhou,Guiyang,4134,Chinanet,240e:330::/28,240e:338:2000::/35
+2401:4900:b9d:e886:0:64:f6b7:cf40,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:b80::/43,2401:4900:b80::/43
+2a01:e0a:b79:3500::1,France,Auvergne-Rhône-Alpes,Saint-André-de-Corcy,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b79:2000::/51
+2a01:e0a:ba7:4f0:be24:11ff:fe15:d3eb,France,Nouvelle-Aquitaine,Salles,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:ba7::/51
+2a01:e0a:124:4190::1,France,Brittany,Lanrodec,12322,Free SAS,2a01:e0a::/38,2a01:e0a:124::/46
+2409:8a44:8220:b44e:5ccb:20c3:5ecf:98c6,China,Henan,Xinyang,24445,"Henan Mobile Communications Co.,Ltd",2409:8a44::/30,2409:8a44:8000::/38
+2a01:e0a:2d0:1430::1,France,Nouvelle-Aquitaine,Varzay,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2d0:1000::/52
+2a01:e0a:9ce:27b0::1,France,Nouvelle-Aquitaine,Saint-André-de-Cubzac,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9ce:2000::/52
+2a01:e0a:b63:e450::1,France,Île-de-France,Persan,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b63:8000::/49
+2001:558:6015:10:a446:9a9d:feba:fc7e,United States,Florida,North Fort Myers,7922,COMCAST-7922,2001:558::/32,2001:558:6015::/48
+2a01:e0a:269:d800::1,France,Île-de-France,Neuilly-sur-Seine,12322,Free SAS,2a01:e0a::/38,2a01:e0a:269:d000::/52
+2a09:bac2:7702:28::4:354,United States,Idaho,Mountain Home,13335,CLOUDFLARENET,2a09:bac2:7000::/37,2a09:bac2:7700::/45
+2402:e280:3d23:aea::1,India,Maharashtra,Mumbai,134674,TATA PLAY BROADBAND PRIVATE LIMITED,2402:e280:3d00::/40,2402:e280:3d20::/43
+2a09:bac3:3479:be::13:297,France,notexist,notexist,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3479::/48
+2a09:bac3:6c39:1955::286:2e,United States,Florida,Tampa,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:6c39::/48
+2600:1fa0:606f:8641:34db:b078::,United States,Ohio,Columbus,16509,AMAZON-02,2600:1fa0:6000::/35,2600:1fa0:6000::/40
+2a09:bac3:34bb:1c82::2d7:29,France,Nouvelle-Aquitaine,Niort,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:34b8::/45
+2a02:560:5000:11fc:52e6:36ff:fe15:c761,Germany,Lower Saxony,Hanover,13045,htp GmbH,2a02:560::/32,2a02:560:5000::/39
+2a01:e0a:bd0:9690::1,France,Auvergne-Rhône-Alpes,Lyon,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:bd0:8000::/50
+2409:8a6c:9:489a:e245:6df1:d73e:401c,China,Yunnan,Kunming,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a6c::/37
+2a01:e0a:438:4af0::1,France,Auvergne-Rhône-Alpes,Espaly-Saint-Marcel,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:438:4000::/51
+2a09:bac3:d47e:197d::28a:3d,United States,Ohio,Brunswick,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:d47e::/48
+2409:8a44:8051:1ca0:2ad1:b7ff:fedd:4d14,China,Henan,Xinyang,24445,"Henan Mobile Communications Co.,Ltd",2409:8a44::/30,2409:8a44:8000::/38
+2a02:8428:4fe8:f01:5afc:20ff:fe64:db5f,France,Provence-Alpes-Côte d'Azur,Biot,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:4000::/34,2a02:8428:4fe8::/45
+2a00:7ee0:9:3:60:1:0:10b,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a01:e0a:369:a860::1,France,Île-de-France,Étampes,12322,Free SAS,2a01:e0a::/38,2a01:e0a:369:8000::/50
+2a01:e34:ecb9:17e0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec80::/41,2a01:e34:ecb9::/48
+2a01:e0a:1a4:2860::1,France,Auvergne-Rhône-Alpes,Clermont-Ferrand,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1a4:2000::/51
+2a01:e0a:30d:97e0::1,France,Grand Est,Diebling,12322,Free SAS,2a01:e0a::/38,2a01:e0a:30d:8000::/49
+2604:2d80:8406:0:936:79da:58ed:4590,United States,Florida,Milton,30036,MEDIACOM-ENTERPRISE-BUSINESS,2604:2d80:8000::/34,2604:2d80:8400::/38
+2409:8a28:82f1:27b0:2e33:4146:87e0:ff79,China,Zhejiang,Taizhou,56041,China Mobile communications corporation,2409:8a28::/32,2409:8a28:8000::/36
+2a09:bac3:347e:18f0::27c:40,France,notexist,notexist,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:347e::/47
+2a02:842b:836d:f001::1,France,Île-de-France,Argenteuil,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:8340::/42
+2a01:e0a:b5a:dc20::1,France,Île-de-France,Valenton,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b5a:c000::/51
+2a01:e0a:2b2:6800::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2b2:6000::/52
+2a00:7ee0:8:0:3:65:0:7b6,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a09:bac3:9e49:119::1c:261,United States,notexist,notexist,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:9e48::/45
+2a09:bac5:2aa2:126e::1d6:103,Germany,Hesse,Kassel,13335,CLOUDFLARENET,2a09:bac5::/34,2a09:bac5:2aa0::/45
+2a01:e0a:b2f:cfb0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b2f:c000::/52
+2a01:e0a:583:6250::1,France,Île-de-France,Alfortville,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:583::/49
+2a01:e0a:1b1:62c0::1,France,Grand Est,Reims,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1b1:6000::/52
+2a00:6020:1000:48::43f,Germany,North Rhine-Westphalia,Rosendahl,60294,Deutsche Glasfaser Wholesale GmbH,2a00:6020::/33,2a00:6020:1000::/39
+2401:4900:43a6:e269:0:49:28a5:ef40,India,Himachal Pradesh,Dharampur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:43a0::/44,2401:4900:43a0::/45
+2a09:bac3:88f2:197d::28a:7,United States,Maryland,Upper Marlboro,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:88f0::/45
+2a09:bac2:6cb9:428::6a:ff,United States,New York,New York,13335,CLOUDFLARENET,2a09:bac2:6000::/36,2a09:bac2:6cb8::/45
+2a01:e0a:970:9670::1,France,Hauts-de-France,Tourcoing,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:970:8000::/50
+2a01:e0a:530:4560::1,France,Nouvelle-Aquitaine,Saint-Loubès,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:530:4000::/50
+2001:e48:2201:1::2:aa,India,notexist,notexist,9583,Sify Limited,2001:e48:2000::/35,2001:e48::/32
+2a09:bac3:9cea:1973::289:18,United States,North Carolina,Wilmington,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:9ce8::/45
+2a09:bac2:326b:1519::21a:90,France,Auvergne-Rhône-Alpes,Roanne,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3268::/45
+2a00:7ee0:8:0:3:3210:0:c4,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2601:401:100:131c::1,United States,Michigan,Ann Arbor,7922,COMCAST-7922,2601:400::/30,2601:401::/34
+2a02:8109:0:64::b34,Germany,Lower Saxony,Wietmarschen,3209,Vodafone GmbH,2a02:8109::/33,2a02:8109::/39
+2a0d:ee00:8f:668::1:271c,France,notexist,notexist,42487,Vialis SEM,2a0d:ee00::/32,2a0d:ee00::/33
+2a01:e0a:b25:99d0::1,France,Occitanie,Toulouse,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b25:8000::/50
+2a02:8428:2995:a601::1,France,Île-de-France,Épinay-sur-Seine,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:2000::/35,2a02:8428:2980::/42
+2a01:e0a:a48:3a60::1,France,Île-de-France,Gagny,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a48::/50
+2a09:bac2:3552:14dc::214:86,France,Normandy,Le Havre,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3550::/45
+2a01:e0a:c8e:d760::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:c8e:c000::/50
+2a01:e0a:17c:91c0::1,France,Brittany,Saint-Brieuc,12322,Free SAS,2a01:e0a::/38,2a01:e0a:17c:8000::/50
+2401:4900:30d8:6766:0:62:3440:2340,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:30c0::/43,2401:4900:30c0::/43
+2a02:8428:94f8:e01::1,France,Bourgogne-Franche-Comté,Besançon,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:9400::/39,2a02:8428:9400::/40
+2a09:bac5:c2dd:15e1::22e:3b,United States,Texas,Killeen,13335,CLOUDFLARENET,2a09:bac5:8000::/33,2a09:bac5:c2d8::/45
+2001:4b98:dc4:3::9,France,notexist,notexist,29169,GANDI SAS,2001:4b98:dc4::/48,2001:4b98::/29
+2401:4900:472a:b2f8::,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4720::/44,2401:4900:4700::/40
+2a02:842b:1fe:ea01::1,France,Pays de la Loire,Angers,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:1e0::/43
+2a01:e0a:b5c:a290::1,France,Provence-Alpes-Côte d'Azur,Rocbaron,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b5c:a000::/51
+2401:4900:419f:7130:0:1:9e19:dc40,India,Rajasthan,Jaipur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4180::/41,2401:4900:4180::/41
+2a09:bac3:347a:1c82::2d7:120,France,notexist,notexist,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:347a::/47
+2a01:e0a:cbb:e810::1,France,Auvergne-Rhône-Alpes,Lyon,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:cbb:c000::/50
+2a01:e0a:31f:b010::1,France,Île-de-France,Villeneuve-Saint-Georges,12322,Free SAS,2a01:e0a::/38,2a01:e0a:31f:a000::/51
+2a09:bac3:3479:1e1::30:75,France,notexist,notexist,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3479::/48
+2a00:7ee0:8:0:3:3207:0:68,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2401:4900:4468:f408:0:29:c229:9a40,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4460::/44,2401:4900:4460::/44
+2001:41d0:a:163d::1,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:a::/51
+2a01:e0a:4a2:9420::1,France,Provence-Alpes-Côte d'Azur,Berre-l'Étang,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4a2:9000::/52
+2001:558:6030:1d:9c13:3d8a:d660:7cca,United States,Florida,Fort Lauderdale,7922,COMCAST-7922,2001:558::/32,2001:558:6030::/48
+2a00:1828:2000:752::12:13,Germany,notexist,notexist,34240,manitu GmbH,2a00:1828::/32,2a00:1828::/32
+2a01:e0a:f7:f9f0::1,France,Occitanie,Port-La Nouvelle,12322,Free SAS,2a01:e0a::/38,2a01:e0a:f7:8000::/49
+2a09:bac2:33b1:1519::21a:a9,France,Grand Est,Illkirch-Graffenstaden,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:33b0::/45
+2a01:e0a:2af:be40::1,France,Nouvelle-Aquitaine,La Rochelle,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2af:b000::/52
+2a09:bac3:c6c9:197d::28a:79,United States,Virginia,Richmond,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:c6c9::/48
+2401:4900:3138:a10:b42f:16e5:46b:dd3,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2a02:908:f000:15::2a2,Germany,North Rhine-Westphalia,Dortmund,3209,Vodafone GmbH,2a02:908:8000::/33,2a02:908:f000::/38
+2a01:e0a:5ed:c40::1,France,Hauts-de-France,Roquetoire,12322,Free SAS,2a01:e0a:5e0::/43,2a01:e0a:5ed::/51
+2402:e280:2155:c7::1,India,Tamil Nadu,Chennai,134674,TATA PLAY BROADBAND PRIVATE LIMITED,2402:e280:2000::/39,2402:e280:2150::/44
+2a02:842a:82d4:ab01:206:91ff:febc:d64f,France,Grand Est,Pulnoy,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:82d0::/45
+2a09:bac3:33c0:1519::21a:7a,France,Grand Est,Mulhouse,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:33c0::/45
+2a01:e0a:98a:6a00::1,France,Grand Est,Messein,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:98a:6000::/51
+2a01:e0a:275:c480::1,France,Auvergne-Rhône-Alpes,Villeurbanne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:275:c000::/52
+2a02:8428:601e:f001::1,France,Île-de-France,Chelles,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:4000::/34,2a02:8428:6000::/42
+2409:8a34:7701:6197:3231:80ff:feca:1592,China,Fujian,Longyan,9808,"China Mobile Communications Group Co., Ltd.",2409:8a30::/29,2409:8a34:6000::/35
+2a01:e34:ecb2:c0e0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec80::/41,2a01:e34:ecb2:8000::/49
+2a01:e0a:bcc:7360::1,France,Grand Est,Hayange,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:bcc:7000::/52
+2a01:e0a:4df:7a10::1,France,Grand Est,Troyes,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4df:6000::/51
+2a02:8428:960e:2301::1,France,Grand Est,Schiltigheim,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:9600::/42,2a02:8428:9600::/42
+2a09:bac2:337d:14e6::215:124,France,Grand Est,Toul,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3378::/45
+2a09:bac5:34b2:be::13:2bd,France,Île-de-France,Aulnay-sous-Bois,13335,CLOUDFLARENET,2a09:bac5::/34,2a09:bac5:34b0::/45
+2a01:e0a:5b7:61f0::1,France,Pays de la Loire,Nantes,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:5b7:4000::/50
+2a09:bac3:be08:8c::e:324,United States,Texas,Fort Worth,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:be08::/45
+2a01:e0a:b04:4610::1,France,Occitanie,Grenade,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b04:4000::/51
+2600:1802:14::1:19,United States,notexist,notexist,16552,TIGGEE,2600:1800::/30,2600:1800::/30
+2a01:e0a:99a:8210::1,France,Normandy,Saint-Lô,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:99a:8000::/50
+2a01:e34:ec2a:b290::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec20::/43,2a01:e34:ec2a:8000::/49
+2a01:e0a:2df:cf80::1,France,Occitanie,Béziers,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2df:c000::/52
+2a09:bac2:b210:db9::15e:5f,United States,Pennsylvania,Pittsburgh,13335,CLOUDFLARENET,2a09:bac2:b000::/36,2a09:bac2:b210::/45
+240e:3b7:3272:c21:ca6c:20ff:fe8f:ede,China,Guangdong,Shenzhen,134774,CHINANET Guangdong province Shenzhen MAN network,240e:3b7:3000::/37,240e:3b7:3000::/38
+2a01:aa60:0:3109:176:125:225:250,France,notexist,notexist,8368,Destiny N.V,2a01:aa60::/32,2a01:aa60::/32
+2604:6000:6fc0:43:cc98:9807:fc44:e08f,United States,New York,Rochester,11351,TWC-11351-NORTHEAST,2604:6000::/32,2604:6000:6fc0:42::/63
+2a01:e0a:ebb:f0b0::1,France,Brittany,Nivillac,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:ebb::/48
+2a01:e0a:2b:62d0::1,France,Auvergne-Rhône-Alpes,Tassin-la-Demi-Lune,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2b:6000::/52
+2001:41d0:2:9861::,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0::/45
+2a09:bac2:3643:150f::219:52,France,Pays de la Loire,Saint-Mars-la-Jaille,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3640::/45
+2a01:e0a:20e:6f40::1,France,Centre-Val de Loire,Vendôme,12322,Free SAS,2a01:e0a::/38,2a01:e0a:20e:6000::/52
+2a01:e0a:b4b:f4e0::1,France,Brittany,Combourg,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b4b:e000::/51
+2a01:e0a:e37:52a0::1,France,Pays de la Loire,La Bazoge,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:e36::/47
+2001:861:5605:866f::1,France,Hauts-de-France,Lens,5410,Bouygues Telecom SA,2001:860::/29,2001:861:5604::/46
+2a09:bac3:80d5:2d2::48:b1,United States,Illinois,Chicago,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:80d0::/45
+2a01:e0a:9dc:5290::1,France,Île-de-France,Noisy-le-Grand,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9dc:5000::/52
+2a02:8428:106b:7801::1,France,Île-de-France,Choisy-le-Roi,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:1000::/36,2a02:8428:1040::/42
+2a09:bac3:6ee8:e78::171:279,United States,Georgia,Atlanta,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:6ee8::/52
+2a09:bac2:329e:be::13:224,France,Auvergne-Rhône-Alpes,Clermont-Ferrand,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3298::/45
+2a02:8429:93f3:2001:6e38:a1ff:fea8:987f,France,Grand Est,Nancy,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429:9000::/36,2a02:8429:93c0::/42
+2a01:e34:eca3:4590::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec80::/41,2a01:e34:eca2::/47
+2620:123:2004:108:69:174:108:19,United States,California,notexist,30103,ZOOM-VIDEO-COMM-AS,2620:123:2004::/47,2620:123:2004::/47
+2001:bc8:1201:414:9eb6:54ff:fe8f:7c60,France,notexist,notexist,12876,Scaleway S.a.s.,2001:bc8::/32,2001:bc8:1000::/38
+2a09:bac3:c2b6:1923::281:76,United States,Texas,McAllen,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:c2b0::/45
+2a09:bac2:34c0:14dc::214:78,France,Nouvelle-Aquitaine,Mauléon-Licharre,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:34c0::/45
+2a01:e0a:db7:49e0::1,France,Auvergne-Rhône-Alpes,Villefranche-sur-Saône,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:db7:4000::/50
+240e:350:3e01:4b79:8e83:e8ae:fe64:e1d7,China,notexist,notexist,4134,Chinanet,240e:350::/34,240e:350::/32
+2001:16b8:a034:d7e4:34cc:5313:563b:32d6,Germany,Baden-Wurttemberg,Freiburg im Breisgau,8881,1&1 Versatel Deutschland GmbH,2001:16b8::/32,2001:16b8:a000::/40
+2a09:bac2:3588:14e6::215:bf,France,Occitanie,Montpellier,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3588::/45
+2a02:842a:241:5101:ce19:a8ff:fea4:b8cf,France,Normandy,Sotteville-lès-Rouen,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:240::/47
+2a02:8429:4e4a:1601::1,France,Provence-Alpes-Côte d'Azur,Châteaurenard,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429::/33,2a02:8429:4e00::/41
+2a01:e35:39ff:6090::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e35::/32,2a01:e35:39fe::/47
+2a02:8428:c28:7601::1,France,Auvergne-Rhône-Alpes,Thyez,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:c00::/40,2a02:8428:c28::/45
+2409:8a74:d:3255:79ba:d3fe:dddf:7ecb,China,Gansu,Lanzhou,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a74::/32
+2a02:8428:75e:2601::1,France,Île-de-France,Les Pavillons-sous-Bois,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428::/37,2a02:8428:75c::/46
+2a09:bac2:6c99:8c::e:2b5,United States,Florida,Orlando,13335,CLOUDFLARENET,2a09:bac2:6000::/36,2a09:bac2:6c98::/47
+2a01:e0a:2ec:1f40::1,France,Île-de-France,Évry,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2ec:1000::/52
+2604:2000:bfc0:7:3d13:5b91:db2e:b93a,United States,New York,Queens,12271,TWC-12271-NYC,2604:2000::/32,2604:2000:bfc0:7::/64
+2001:4b99:1:3:216:3eff:fe7c:1bfb,France,notexist,notexist,203476,GANDI SAS,2001:4b99:1::/48,2001:4b98::/29
+2a01:e0a:2f2:d60::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2f2::/52
+2a01:e0a:ba:8080::1,France,Île-de-France,Massy,12322,Free SAS,2a01:e0a::/38,2a01:e0a:ba:8000::/49
+2a01:e0a:23a:93d0::1,France,Nouvelle-Aquitaine,Saint-Médard-en-Jalles,12322,Free SAS,2a01:e0a::/38,2a01:e0a:23a:9000::/52
+2a01:e0a:aef:1190::1,France,Pays de la Loire,La Tranche-sur-Mer,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:aef:1000::/52
+2a01:e0a:5f:6630::1,France,Île-de-France,Saint-Ouen,12322,Free SAS,2a01:e0a::/38,2a01:e0a:5c::/46
+2a09:bac3:2a49:18f0::27c:8a,Germany,Hesse,Dreieich,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:2a48::/45
+2a09:bac3:83e9:1791::259:c7,United States,Kentucky,Lexington,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:83e8::/46
+2001:41d0:305:2100::56cd,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:305::/48
+2a01:e0a:b19:9480::1,France,Centre-Val de Loire,Lucé,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b19:8000::/50
+2a02:842a:f178:f01:ce19:a8ff:fe0d:725f,France,Occitanie,Perpignan,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:f100::/41
+2001:bc8:3057:f06::8,France,notexist,notexist,12876,Scaleway S.a.s.,2001:bc8::/32,2001:bc8:3000::/39
+2600:6c50:143f:bcdc::1,United States,California,Calabasas,20115,CHARTER-20115,2600:6c50:1000::/36,2600:6c50:1400::/39
+2001:41d0:d:299a::1,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:c::/46
+2a09:bac2:bbe7:1923::281:22,United States,Texas,Fort Worth,13335,CLOUDFLARENET,2a09:bac2:b000::/36,2a09:bac2:bbe6::/47
+240e:38f:7415:1293:d20f:6d9f:f8d2:2576,China,notexist,notexist,4812,China Telecom Group,240e:388::/29,240e:38e::/31
+2409:8a28:6af4:dc5:a5dc:9bd5:f7c9:3f40,China,Zhejiang,Shaoxing,56041,China Mobile communications corporation,2409:8a28::/32,2409:8a28:6800::/37
+2a09:bac2:3409:150f::219:37,France,Hauts-de-France,Béthune,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3408::/45
+2a02:8428:78f:d701::1,France,Île-de-France,Villejuif,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428::/37,2a02:8428:78c::/46
+2003:e0:e7ff:10d3:6b4:feff:fe9e:28f,Germany,Brandenburg,Hoppegarten,3320,Deutsche Telekom AG,2003:e0::/32,2003:e0:e000::/37
+2a01:e0a:15:2890::1,France,Normandy,Le Havre,12322,Free SAS,2a01:e0a::/38,2a01:e0a:15::/49
+2a01:488:42:1000:50ed:8448:ffc7:3a2e,Germany,notexist,notexist,20773,Host Europe GmbH,2a01:488::/33,2a01:488::/33
+2a09:bac5:3217:1eb::31:12c,France,Provence-Alpes-Côte d'Azur,Istres,13335,CLOUDFLARENET,2a09:bac5::/34,2a09:bac5:3210::/45
+2a01:e0a:b12:b050::1,France,Nouvelle-Aquitaine,Civray,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b12:b000::/52
+2a09:bac2:c72e:166e::23c:53,United States,Virginia,Fairfax,13335,CLOUDFLARENET,2a09:bac2:c000::/37,2a09:bac2:c72e:1000::/52
+2001:bc8:377d:ff00:7b:fdfc:ca5:7283,France,notexist,notexist,12876,Scaleway S.a.s.,2001:bc8::/32,2001:bc8:3400::/38
+2001:558:600a:99:789f:9e82:2b0:a3ff,United States,Washington,Seattle,7922,COMCAST-7922,2001:558::/32,2001:558:600a::/47
+2409:8a62:5c04:1aeb:8e8f:8bff:fe71:2a8,China,Sichuan,Yibin,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:4000::/35
+2409:8a55:8a03:fcb:2e2:2cd8:1e77:6a1b,China,Guangdong,Guangzhou,9808,"China Mobile Communications Group Co., Ltd.",2409:8a55:8000::/34,2409:8a55:8000::/36
+2a01:e0a:294:4890::1,France,Provence-Alpes-Côte d'Azur,Miramas,12322,Free SAS,2a01:e0a::/38,2a01:e0a:294:4000::/50
+2003:e6:cfff:542:46fe:3bff:fe29:cb8a,Germany,North Rhine-Westphalia,Cologne,3320,Deutsche Telekom AG,2003:e6::/31,2003:e6:cc00::/38
+2a02:842a:7280:a001::1,France,notexist,notexist,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:7200::/40
+2a01:e0a:92a:6510::1,France,Hauts-de-France,Wizernes,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:92a::/49
+2a01:e0a:99d:9e80::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:99d:8000::/51
+2a01:e0a:afa:8c50::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:afa:8000::/51
+2a09:bac3:34c2:be::13:277,France,Nouvelle-Aquitaine,Mauléon-Licharre,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:34c0::/45
+2a01:e0a:e14:59c0::1,France,Auvergne-Rhône-Alpes,Chassieu,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:e14:4000::/50
+2a01:e0a:cf1:e940::1,France,Pays de la Loire,Cordemais,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:cf0::/46
+2a01:e34:ecad:a2b0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e34:ec80::/41,2a01:e34:ecad:a000::/51
+2a01:e0a:97b:5720::1,France,Auvergne-Rhône-Alpes,Bassens,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:97b::/48
+2a01:e0a:927:ae20::1,France,Provence-Alpes-Côte d'Azur,Sorgues,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:927:a000::/52
+2a02:8428:82f7:1c01::1,France,Normandy,Évreux,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:8000::/36,2a02:8428:82f0::/45
+2a01:e0a:163:e120::1,France,Occitanie,Villeneuve-lès-Avignon,12322,Free SAS,2a01:e0a::/38,2a01:e0a:163:c000::/50
+2a09:bac3:3311:14e6::215:76,France,Centre-Val de Loire,Montargis,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3310::/45
+2600:4c00:500:3::174,United States,notexist,notexist,63410,PRIVATESYSTEMS,2600:4c00:400::/39,2600:4c00:400::/38
+2001:41d0:800:1ccc:d8b7:1:0:45c3,France,notexist,notexist,16276,OVH SAS,2001:41d0:800::/37,2001:41d0:800:1cc0::/59
+2a01:e0a:989:8d30::1,France,Occitanie,Nailloux,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:989:8000::/52
+2a01:e0a:877:48c0::1,France,Auvergne-Rhône-Alpes,Lyon,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:877:4000::/50
+2a01:e0a:58e:cdc0::1,France,Pays de la Loire,Nantes,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:58e::/48
+2a01:e0a:2e:9b90::1,France,Brittany,Brest,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2e:8000::/51
+2a01:e0a:2a0:500::1,France,Île-de-France,Nanterre,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2a0::/52
+2a01:e0a:5a1:12b0::1,France,Auvergne-Rhône-Alpes,Péronnas,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:5a1::/49
+2a01:e0a:37b:8470::1,France,Occitanie,Quarante,12322,Free SAS,2a01:e0a::/38,2a01:e0a:37b:8000::/49
+2a12:c305:1a68:622:66ac:19d9:3090:8157,United States,California,Mountain View,34665,Petersburg Internet Network ltd.,2a12:c304::/30,2a12:c304::/30
+2a01:e0a:28e:55e0::1,France,Île-de-France,Sannois,12322,Free SAS,2a01:e0a::/38,2a01:e0a:28e:4000::/51
+2a01:e0a:5c1:3f60::1,France,Grand Est,Lingolsheim,12322,Free SAS,2a01:e0a:5c0::/44,2a01:e0a:5c1:2000::/51
+240e:334:8a00:12a7:480f:b3f4:f6:9bd2,China,notexist,notexist,4134,Chinanet,240e:330::/28,240e:334::/32
+2a01:e0a:85:a210::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e0a::/38,2a01:e0a:85:a000::/52
+2a01:e0a:5b4:5e0::1,France,Île-de-France,Draveil,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:5b4::/52
+2a09:bac2:3478:14dc::214:9f,France,notexist,notexist,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3478::/48
+2409:8a44:45a0:3a24:7a10:538f:5938:3823,China,Henan,Xinxiang,24445,"Henan Mobile Communications Co.,Ltd",2409:8a44::/30,2409:8a44:4000::/37
+2a01:e0a:1a1:56a0::1,France,Île-de-France,La Celle-Saint-Cloud,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1a1:4000::/51
+2001:4860:4864:2::d,United States,notexist,notexist,15169,GOOGLE,2001:4860:4840::/42,2001:4860:4800::/37
+2001:41d0:d:29e2::,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:c::/46
+2a01:e0a:3ed:2e70::1,France,Auvergne-Rhône-Alpes,Quintal,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3ed::/49
+2a02:842a:23b:af01::1,France,Hauts-de-France,Abbeville-Saint-Lucien,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:238::/45
+2a01:e0a:56a:f150::1,France,Centre-Val de Loire,Saint-Cyr-sur-Loire,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:56a:e000::/51
+2a01:e0a:21b:4c90::1,France,Auvergne-Rhône-Alpes,Annecy,12322,Free SAS,2a01:e0a::/38,2a01:e0a:21b:4000::/50
+2a01:e0a:b14:27f0::1,France,Hauts-de-France,Watten,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b14:2000::/51
+2a09:bac1:76a0:900::289:be,United States,Pennsylvania,Harrisburg,13335,CLOUDFLARENET,2a09:bac1::/32,2a09:bac1:76a0:900::/64
+2a01:e0a:5a1:d280::1,France,Auvergne-Rhône-Alpes,Péronnas,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:5a1:8000::/49
+2a01:e0a:ed:4620::1,France,Auvergne-Rhône-Alpes,Fontaine,12322,Free SAS,2a01:e0a::/38,2a01:e0a:ed:4000::/51
+2602:ff64::104:244:28:151,United States,notexist,notexist,23005,SWITCH-LTD,2602:ff64::/36,2602:ff64::/36
+2a02:842a:67c0:ac01:6e38:a1ff:feca:34df,France,Île-de-France,Boulogne-Billancourt,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:6780::/41
+2a01:e0a:194:1070::1,France,Île-de-France,Bourg-la-Reine,12322,Free SAS,2a01:e0a::/38,2a01:e0a:194::/50
+2a01:e0a:2d0:e240::1,France,Provence-Alpes-Côte d'Azur,Nice,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2d0:8000::/49
+2a01:e0a:2fa:d460::1,France,Île-de-France,Aubervilliers,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2fa:c000::/50
+2604:2d80:840d:0:590b:9de7:30a4:7bfb,United States,Florida,Milton,30036,MEDIACOM-ENTERPRISE-BUSINESS,2604:2d80:8000::/34,2604:2d80:8400::/38
+2003:ea:3fff:33e:9267:1cff:fea3:2d0d,Germany,Schleswig-Holstein,Nordhastedt,3320,Deutsche Telekom AG,2003:ea::/34,2003:ea:3c00::/38
+2a01:e0a:888:69f0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:880::/42,2a01:e0a:888:6000::/52
+2a01:e0a:15d:7930::1,France,Hauts-de-France,Vimy,12322,Free SAS,2a01:e0a::/38,2a01:e0a:15d::/49
+2a01:e0a:369:b040::1,France,Île-de-France,Étampes,12322,Free SAS,2a01:e0a::/38,2a01:e0a:369:8000::/50
+2409:8a38:6a02:1002:123d:3e8a:899c:6592,China,Jiangxi,Yichun,9808,"China Mobile Communications Group Co., Ltd.",2409:8a38::/30,2409:8a38:6000::/35
+2001:4dd0:af16:bca5:7642:7fff:fede:4be4,Germany,North Rhine-Westphalia,Cologne,8422,NetCologne Gesellschaft fur Telekommunikation mbH,2001:4dd0::/29,2001:4dd0:8000::/33
+2601:40b:c200:a05::1,United States,Michigan,Davisburg,7922,COMCAST-7922,2601:408::/29,2601:40b:c200::/48
+2a09:bac3:7f41:8c::e:2e9,United States,Missouri,Kansas City,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:7f41::/52
+2001:8d8:831:a600::,France,notexist,notexist,8560,IONOS SE,2001:8d8::/32,2001:8d8:800::/41
+2a01:e0a:19e:190::1,France,Nouvelle-Aquitaine,Échiré,12322,Free SAS,2a01:e0a::/38,2a01:e0a:19e::/52
+2a01:e0a:382:60d0::1,France,Occitanie,Villefranche-de-Lauragais,12322,Free SAS,2a01:e0a::/38,2a01:e0a:382:4000::/50
+2a09:bac2:cff7:428::6a:fe,United States,New York,Brooklyn,13335,CLOUDFLARENET,2a09:bac2:cc00::/38,2a09:bac2:cff0::/45
+2a01:e0a:b57:2780::1,France,Normandy,Le Havre,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b57::/50
+2a01:e0a:2b6:7260::1,France,Île-de-France,Bois-d'Arcy,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2b6:4000::/50
+2a01:e0a:a09:d670:86d6:c5ff:fe77:e9a7,France,Pays de la Loire,notexist,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a09:c000::/50
+2a01:e0a:a4f:a800::1,France,Île-de-France,Sevran,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a4f:a000::/51
+2a01:e0a:30c:e110::1,France,Occitanie,Sigean,12322,Free SAS,2a01:e0a::/38,2a01:e0a:30c:8000::/49
+2a01:e0a:86:9e20:211:32ff:fe1d:e0ff,France,Provence-Alpes-Côte d'Azur,Avignon,12322,Free SAS,2a01:e0a::/38,2a01:e0a:86:8000::/50
+2a01:e0a:440:1700::1,France,Nouvelle-Aquitaine,La Rochelle,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:440::/51
+2a01:e0a:2cc:d840::1,France,Normandy,Avranches,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2cc:c000::/51
+2a01:e0a:80d:58d0::1,France,Île-de-France,Trappes,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:80d:5000::/52
+2a01:e0a:257:a890::1,France,Auvergne-Rhône-Alpes,Villeurbanne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:257:a000::/52
+2a01:e0a:56a:4960::1,France,Grand Est,Lunéville,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:56a:4000::/50
+2a01:e0a:516:6170::1,France,Île-de-France,Stains,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:516:4000::/50
+2a01:e0a:98:eea0::1,France,Île-de-France,Élancourt,12322,Free SAS,2a01:e0a::/38,2a01:e0a:98:e000::/51
+2a01:e0a:a5e:bd00::1,France,Occitanie,Préchac-sur-Adour,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a5e:a000::/51
+2001:14f7:81:4d00:1eed:6fff:fe41:7a6e,Germany,North Rhine-Westphalia,Hamm,12355,HeLi NET Telekommunikation GmbH & Co.,2001:14f0::/29,2001:14f7::/38
+2a09:bac3:b4be:aa::11:1a4,United States,South Carolina,Mt. Pleasant,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:b4bc::/46
+2a01:e05:13:1700:fe00::9ac2,France,notexist,notexist,12322,Free SAS,2a01:e00::/29,2a01:e00::/29
+2409:8a74:6c01:6c0:2502:7adc:f3b8:1988,China,Gansu,Lanzhou,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a74::/32
+2a01:e0a:189:9880::1,France,Île-de-France,Triel-sur-Seine,12322,Free SAS,2a01:e0a::/38,2a01:e0a:189:9000::/52
+2001:4860:4801:4086::4,United States,notexist,notexist,15169,GOOGLE,2001:4860:4800::/46,2001:4860:4800::/37
+2a01:e0a:880:3590::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:880::/42,2a01:e0a:880::/49
+2409:8a55:c501:1679:1e78:4e7c:274c:f132,China,notexist,notexist,56040,China Mobile communications corporation,2409:8a55:c000::/37,2409:8a55:c000::/37
+2a01:e0a:586:8940::1,France,Hauts-de-France,Lille,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:586::/48
+2a02:8428:32ec:7e01:6aaa:c4ff:fe00:450f,France,Île-de-France,Versailles,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:2000::/35,2a02:8428:3280::/41
+2a01:e0a:6:fda0::1,France,Île-de-France,Thiais,12322,Free SAS,2a01:e0a::/38,2a01:e0a:6:c000::/50
+2a09:bac2:363b:14f0::216:8d,France,Pays de la Loire,Châteaubriant,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3638::/45
+2a01:e0a:a7b:b320::1,France,Grand Est,Sarreguemines,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a7b:b000::/52
+2a01:e0a:b58:76a0::1,France,Auvergne-Rhône-Alpes,Vaugneray,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b58::/49
+240e:358:1400:41cf:c651:8d58:ebed:2c96,China,Shaanxi,Xi'an,4134,Chinanet,240e:358::/29,240e:358::/32
+2a02:8429:e3:6501::1,France,Bourgogne-Franche-Comté,Dijon,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429::/33,2a02:8429:e0::/44
+2409:897a:5af8:3ab8::1,China,notexist,notexist,9808,"China Mobile Communications Group Co., Ltd.",2409:8960::/27,2409:8978::/29
+2a01:e0a:c80:c930::1,France,Pays de la Loire,Beaurepaire,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:c80:c000::/51
+2a01:e0a:ac4:76a0::1,France,Nouvelle-Aquitaine,Anglet,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:ac4:6000::/51
+2a01:e0a:a18:2760::1,France,Corsica,Sartène,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:a18::/49
+2a01:e0a:2b2:7c00::1,France,Île-de-France,Saint-Denis,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2b2:7000::/52
+2a01:e0a:185:38c0::1,France,Île-de-France,Pontault-Combault,12322,Free SAS,2a01:e0a::/38,2a01:e0a:185:2000::/51
+2a01:e0a:3ee:aa80::1,France,Hauts-de-France,Ostricourt,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3ee:a000::/51
+240e:32c:57:357:e31:dc19:8603:a8f7,China,notexist,notexist,4134,Chinanet,240e:32c::/30,240e:32c::/30
+2401:4900:4700:1e26::,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4700::/43,2401:4900:4700::/40
+2001:bc8:377d:ff00:fc:6abd:ed81:b231,France,notexist,notexist,12876,Scaleway S.a.s.,2001:bc8::/32,2001:bc8:3400::/38
+2a09:bac2:c6cf:1791::259:7a,United States,Virginia,Richmond,13335,CLOUDFLARENET,2a09:bac2:c000::/37,2a09:bac2:c6cf::/48
+2a01:e0a:9a1:a190::1,France,Centre-Val de Loire,Tours,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9a1:a000::/52
+2a01:e0a:20c:1d80::1,France,Île-de-France,Issy-les-Moulineaux,12322,Free SAS,2a01:e0a::/38,2a01:e0a:20c::/51
+2a09:bac2:8bde:1cd2::2df:b,United States,New York,New York,13335,CLOUDFLARENET,2a09:bac2:8000::/36,2a09:bac2:8bd0::/44
+2001:638:90d:bfff::,Germany,Thuringia,Ilmenau,680,Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.,2001:638::/32,2001:638:90c::/46
+2a09:bac2:3429:14e6::215:101,France,Hauts-de-France,Lille,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3428::/45
+2a00:7ee0:8:0:3:3209:0:272,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a01:e0a:e33:8140::1,France,Normandy,Le Vaudreuil,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:e33:8000::/52
+2a01:e0a:3e8:aad0::1,France,Île-de-France,Chennevières-sur-Marne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3e8:a800::/53
+2a01:e0a:363:4680::1,France,Hauts-de-France,Grand-Fort-Philippe,12322,Free SAS,2a01:e0a::/38,2a01:e0a:363:4000::/52
+2001:41d0:1008:31bb::8,France,notexist,notexist,16276,OVH SAS,2001:41d0:1000::/36,2001:41d0:1000::/36
+2a01:e0a:5c8:6bd0::1,France,Provence-Alpes-Côte d'Azur,Cavaillon,12322,Free SAS,2a01:e0a:5c0::/44,2a01:e0a:5c8:6000::/52
+2a01:e0a:8ae:5430::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:880::/42,2a01:e0a:8ae:4000::/50
+2401:4900:581b:c778:0:e:6e8a:3c40,India,Haryana,Sonīpat,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:5810::/44,2401:4900:5810::/44
+2a01:e0a:5cd:5f30::1,France,Provence-Alpes-Côte d'Azur,La Seyne-sur-Mer,12322,Free SAS,2a01:e0a:5c0::/44,2a01:e0a:5cd:5000::/52
+2a09:bac3:32ff:14e6::215:10,France,Bourgogne-Franche-Comté,Nevers,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:32f8::/45
+2a09:bac2:3642:126e::1d6:d8,France,Pays de la Loire,Saint-Mars-la-Jaille,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3640::/45
+2a01:e34:ec9a:cb40::1,France,Île-de-France,Longjumeau,12322,Free SAS,2a01:e34:ec80::/41,2a01:e34:ec9a:c000::/51
+2a01:e0a:1d1:d6f0::1,France,Hauts-de-France,Raismes,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1d1:c000::/50
+2a0f:ff00:1337:a640:3631:c4ff:fe2b:d817,Germany,notexist,notexist,213281,Greenfiber Internet & Dienste GmbH,2a0f:ff00:1337::/48,2a0f:ff00:1000::/36
+2a09:bac3:66ae:1250::1d3:95,United States,California,Modesto,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:66a8::/45
+2a01:e0a:53a:5600::1,France,Nouvelle-Aquitaine,Bordeaux,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:53a:5000::/52
+2a01:e0a:260:70a0::1,France,Occitanie,Toulouse,12322,Free SAS,2a01:e0a::/38,2a01:e0a:260:6000::/51
+2003:f4:67ff:3ded:464e:6dff:feab:abeb,Germany,Rheinland-Pfalz,Grünstadt,3320,Deutsche Telekom AG,2003:f4::/31,2003:f4:6000::/37
+2409:8a62:5301:5df6:16ad:caff:fead:431,China,Sichuan,Yibin,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:4000::/35
+2401:4900:312b:3fa4:0:69:129:2f40,India,Odisha,Bhubaneswar,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:3100::/42,2401:4900:3100::/42
+2a01:e35:39f7:8270::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e35::/32,2a01:e35:39f7:8000::/50
+2401:4900:b82:2152:0:4c:9af3:6540,India,National Capital Territory of Delhi,Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:b80::/43,2401:4900:b80::/43
+2a01:e0a:98f:41e0::1,France,Normandy,Glisolles,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:98f:4000::/51
+2a01:e0a:1f3:bd00::1,France,Île-de-France,Le Kremlin-Bicêtre,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1f3:8000::/50
+2a09:bac3:b409:197d::28a:3,United States,South Carolina,Greenville,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:b408::/45
+2001:4dd0:af18:8fc9:e208:55ff:fe8a:669f,Germany,North Rhine-Westphalia,Cologne,8422,NetCologne Gesellschaft fur Telekommunikation mbH,2001:4dd0::/29,2001:4dd0:8000::/33
+2a01:e0a:179:31b0::1,France,Occitanie,Restinclières,12322,Free SAS,2a01:e0a::/38,2a01:e0a:179::/50
+2a01:e0a:d15:2010::1,France,Grand Est,Jarny,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d15::/50
+2605:a600:1d8a:45b8::1,United States,Texas,Austin,16591,GOOGLE-FIBER,2605:a600::/32,2605:a600:1d88::/45
+2a01:e0a:2e2:eb60::1,France,Île-de-France,Noisy-le-Grand,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2e2:e000::/51
+2a01:e0a:9c6:47d0::1,France,Hauts-de-France,Arras,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9c6::/49
+2409:8a62:6602:2bb1:ae8b:6aff:fe13:b199,China,Sichuan,Chengdu,9808,"China Mobile Communications Group Co., Ltd.",2409:8a60::/27,2409:8a62:6000::/35
+2a09:bac3:7c00:1be1::2c7:e,United States,Florida,Brandon,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:7c00::/48
+2a02:842a:822b:1101::1,France,Normandy,Évreux,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:8228::/45
+2a01:e0a:9af:b940::1,France,Hauts-de-France,Sainghin-en-Weppes,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:9af:b000::/52
+2409:8a44:7d40:240d:d822:581f:50aa:3833,China,Henan,Nanyang,24445,"Henan Mobile Communications Co.,Ltd",2409:8a44::/30,2409:8a44:7800::/37
+2a01:e0a:49c:6c70::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:49c::/49
+2a01:e0a:411:11b0::1,France,Île-de-France,Claye-Souilly,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:411::/51
+2a01:e0a:279:51c0::1,France,Auvergne-Rhône-Alpes,Saint-Pourçain-sur-Sioule,12322,Free SAS,2a01:e0a::/38,2a01:e0a:279:5000::/52
+2a02:842b:d7:7101:1e57:3eff:fee1:505f,France,Île-de-France,Marly-le-Roi,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:d0::/44
+2a01:e0a:5f5:2630::1,France,Île-de-France,Goussainville,12322,Free SAS,2a01:e0a:5e0::/43,2a01:e0a:5f5:2000::/51
+2a01:e0a:4e7:c280::1,France,Auvergne-Rhône-Alpes,Roche-la-Molière,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4e7:c000::/50
+2a09:bac2:a6b8:dcd::160:5e,United States,New York,Buffalo,13335,CLOUDFLARENET,2a09:bac2:a000::/37,2a09:bac2:a6b8::/46
+2001:7c0:2015:216::209,Germany,Baden-Wurttemberg,Stuttgart,553,Universitaet Stuttgart,2001:7c0:2000::/39,2001:7c0:2000::/38
+2a09:bac3:b006:1537::21d:3c,United States,Oregon,Portland,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:b000::/45
+2a01:e0a:161:d870::1,France,Grand Est,Haguenau,12322,Free SAS,2a01:e0a::/38,2a01:e0a:161:c000::/51
+2604:2d80:8813:0:2569:722a:759e:c434,United States,Delaware,Ocean View,30036,MEDIACOM-ENTERPRISE-BUSINESS,2604:2d80:8000::/34,2604:2d80:8800::/41
+2003:e7:57ff:2257:3ea6:2fff:fe69:b049,Germany,Mecklenburg-Vorpommern,Rostock,3320,Deutsche Telekom AG,2003:e6::/31,2003:e7:5400::/38
+2a01:e0a:24f:f0b0::1,France,Auvergne-Rhône-Alpes,Bourgoin-Jallieu,12322,Free SAS,2a01:e0a::/38,2a01:e0a:24f:f000::/52
+2401:4900:527f:d756:0:2b:f0de:740,India,Rajasthan,Jaipur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:5270::/44,2401:4900:5240::/42
+2a01:e0a:3c1:9590::1,France,Normandy,La Londe,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3c1:8000::/51
+2604:a880:800:a1::12fe:e001,United States,New Jersey,Clifton,14061,DIGITALOCEAN-ASN,2604:a880:800::/48,2604:a880:800:a1::/64
+2a01:e0a:462:27a0::1,France,Occitanie,Sète,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:462::/50
+2a09:bac2:6d4f:1032::19d:1a7,United States,Florida,Clermont,13335,CLOUDFLARENET,2a09:bac2:6000::/36,2a09:bac2:6d48::/45
+2a02:8428:5d3:6d01::1,France,Île-de-France,Gagny,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428::/37,2a02:8428:5d0::/44
+2a01:e0a:f0b:e320::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:f08::/46
+2a01:e0a:82f:a3c0::1,France,Île-de-France,Cormeilles-en-Parisis,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:82f:a000::/52
+2001:558:200:333::1,United States,Pennsylvania,Wynnewood,7922,COMCAST-7922,2001:558::/32,2001:558:200::/41
+2a02:842a:8048:6c01::1,France,Provence-Alpes-Côte d'Azur,Hyères,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:8048::/45
+2001:558:202:f024::1,United States,Pennsylvania,Wynnewood,7922,COMCAST-7922,2001:558::/32,2001:558:200::/41
+2a01:e0a:ac9:91c0::1,France,Normandy,Les Pieux,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:ac9:8000::/49
+2a02:8429:bf:7d01::1,France,Bourgogne-Franche-Comté,Dijon,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8429::/33,2a02:8429:bc::/46
+2a01:e0a:106:3a80::1,France,Pays de la Loire,Cholet,12322,Free SAS,2a01:e0a::/38,2a01:e0a:106:2000::/51
+2a01:e0a:ec1:6460::1,France,Bourgogne-Franche-Comté,Saint-Claude,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:ec1::/48
+2a01:e0a:5ac:d7a0::1,France,Pays de la Loire,Bouguenais,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:5ac:d000::/52
+2a01:e34:ec93:2640::1,France,Île-de-France,Malakoff,12322,Free SAS,2a01:e34:ec80::/41,2a01:e34:ec93::/49
+240e:360:a001:3ea9:fe34:e28d:d0d:57d,China,Anhui,Fuyang,4134,Chinanet,240e:360::/28,240e:360:a000::/35
+2a09:bac2:8d56:1cd2::2df:4f,United States,Michigan,Bloomfield Hills,13335,CLOUDFLARENET,2a09:bac2:8000::/36,2a09:bac2:8d56::/48
+2a12:c305:2881:9337:e9f6:494a:bc8c:384f,United States,California,Mountain View,34665,Petersburg Internet Network ltd.,2a12:c304::/30,2a12:c304::/30
+2a01:e0a:2af:4850::1,France,Auvergne-Rhône-Alpes,Valeille,12322,Free SAS,2a01:e0a::/38,2a01:e0a:2af:4000::/51
+2a01:e0a:b9a:a490::1,France,Hauts-de-France,Grenay,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b9a:a000::/52
+2a01:e0a:80a:6030::1,France,Auvergne-Rhône-Alpes,Gières,12322,Free SAS,2a01:e0a:800::/41,2a01:e0a:80a:4000::/50
+2a02:8428:1d90:ac01:6e38:a1ff:fed4:b3bf,France,Nouvelle-Aquitaine,Gujan-Mestras,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:1000::/36,2a02:8428:1d80::/43
+2a01:e0a:bf0:ddb0::1,France,Grand Est,Strasbourg,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:bf0:d000::/52
+2a01:e0a:dd6:51c0::1,France,Bourgogne-Franche-Comté,Gueugnon,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:dd6:4000::/51
+2a01:e0a:22e:8580::1,France,Grand Est,Kingersheim,12322,Free SAS,2a01:e0a::/38,2a01:e0a:22e:8000::/52
+240e:350:8600:98e2:5634:ef61:be53:1bc,China,notexist,notexist,4134,Chinanet,240e:350:8000::/33,240e:350::/32
+2a01:e0a:4b3:1a40:6695:6cff:fe39:ad1e,France,Île-de-France,Cergy,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4b3::/51
+2a09:bac3:6e1f:e78::171:214,United States,Florida,Tampa,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:6e1c::/46
+2409:8a55:7001:f2d1:b505:5a27:439d:6ed5,China,notexist,notexist,9808,"China Mobile Communications Group Co., Ltd.",2409:8a55:7000::/37,2409:8a55:6000::/35
+2a01:e0a:104:f360::1,France,Auvergne-Rhône-Alpes,Vienne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:104:c000::/50
+2a01:e0a:bc9:4b00::1,France,Normandy,Tourlaville,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:bc9:4000::/51
+2a01:e34:ec17:a9d0::1,France,Île-de-France,Montreuil,12322,Free SAS,2a01:e34:ec10::/44,2a01:e34:ec17:a000::/51
+2409:8a34:2104:923:ae88:66bb:a0da:5a7f,China,Fujian,Putian,9808,"China Mobile Communications Group Co., Ltd.",2409:8a30::/29,2409:8a34:2000::/36
+2a09:bac5:6891:3d7::62:54,United States,Colorado,Denver,13335,CLOUDFLARENET,2a09:bac5:6000::/36,2a09:bac5:6890::/45
+2409:8a56:2209:dc:7669:4a8c:5470:ee9d,China,notexist,notexist,9808,"China Mobile Communications Group Co., Ltd.",2409:8a56:2200::/40,2409:8a56::/31
+2a02:842b:4e6:1101:5406:cdff:fe86:c95b,France,Occitanie,Alès,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:4e0::/44
+2a09:bac3:3310:14f0::216:5d,France,Centre-Val de Loire,Montargis,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3310::/45
+2a09:bac3:3479:37d::59:32,France,notexist,notexist,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:3479::/48
+2a01:e0a:483:f730::1,France,Grand Est,Hagondange,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:483:c000::/50
+2401:4900:5246:97d2:0:5b:80c9:3e40,India,Rajasthan,Jaipur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:5240::/44,2401:4900:5240::/42
+2a03:7500:b:f526:de39:6fff:fe60:52e6,Germany,Hesse,Felsberg,20810,Netcom Kassel Gesellschaft fuer Telekommunikation mbH,2a03:7500::/29,2a03:7500::/38
+2a09:bac2:2bb9:18f0::27c:43,Germany,Lower Saxony,Hanover,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:2bb8::/45
+2a01:e0a:490:a7d0::1,France,Provence-Alpes-Côte d'Azur,Marseille,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:490:a000::/52
+2a09:bac2:336b:1519::21a:8a,France,Centre-Val de Loire,Vendôme,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3368::/45
+2a09:bac3:c1df:1923::281:ba,United States,Texas,Killeen,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:c1d8::/45
+2001:41d0:203:45ba::,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:203:4000::/50
+2401:4900:40f0:bf68:0:6a:e409:640,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:40f0::/44,2401:4900:40c0::/42
+2604:6000:ffc0:67:c467:d58c:37e7:2352,United States,New York,Schenectady,11351,TWC-11351-NORTHEAST,2604:6000::/32,2604:6000:ffc0:67::/64
+2600:1fa0:8055:4611:34d9:127b::,United States,Virginia,Ashburn,16509,AMAZON-02,2600:1fa0:8000::/33,2600:1fa0:8000::/39
+2a01:e0a:8b0:c110::1,France,Grand Est,Bouligny,12322,Free SAS,2a01:e0a:880::/42,2a01:e0a:8b0:c000::/50
+2409:8a5c:8803:6f5d:5841:1b65:25b5:2c59,China,Guangxi,Nanning,9808,"China Mobile Communications Group Co., Ltd.",2409:8a5c::/30,2409:8a5c:8000::/33
+2409:8a38:4a02:59c9:c8e0:9c97:e669:c272,China,Jiangxi,Yichun,9808,"China Mobile Communications Group Co., Ltd.",2409:8a38::/30,2409:8a38:4000::/35
+2a09:bac3:8919:db9::15e:b2,United States,Maryland,Laurel,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:8919::/52
+2a01:e0a:d4:63e0::1,France,Grand Est,Mulhouse,12322,Free SAS,2a01:e0a::/38,2a01:e0a:d4::/48
+2a02:842a:8571:e101::1,France,Grand Est,Colmar,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:8570::/44
+2a01:e0a:366:44d0::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a::/38,2a01:e0a:366:4000::/52
+2a01:e0a:343:a520::1,France,Provence-Alpes-Côte d'Azur,Nice,12322,Free SAS,2a01:e0a::/38,2a01:e0a:343:a000::/52
+2a01:e0a:250:6be0::1,France,Occitanie,Saint-Orens-de-Gameville,12322,Free SAS,2a01:e0a::/38,2a01:e0a:250:4000::/50
+2a01:e0a:1fc:a5f0::1,France,Hauts-de-France,Hem,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1fc:a000::/52
+2a02:842b:86aa:cc01::1,France,Hauts-de-France,Compiègne,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:86a0::/44
+2a02:8428:b78a:3201::1,France,Brittany,Gévezé,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:a000::/35,2a02:8428:b780::/41
+2409:8a55:2308:1481:5e75:c6ff:fd97:8f42,China,Guangdong,Zhuhai,9808,"China Mobile Communications Group Co., Ltd.",2409:8a55:2000::/37,2409:8a55:2000::/37
+2a01:e0a:1eb:5590::1,France,Île-de-France,Boulogne-Billancourt,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1eb:4000::/51
+2a02:842a:f3ba:f301:6e38:a1ff:fed3:cd5f,France,Provence-Alpes-Côte d'Azur,Avignon,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:f380::/42
+2a02:4780:28:8710::1,France,Île-de-France,Paris,47583,Hostinger International Limited,2a02:4780:20::/43,2a02:4780:28::/47
+2a02:842a:8568:7101::1,France,Grand Est,Mulhouse,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:8568::/45
+2003:0:8805:d80b::1,Germany,notexist,notexist,3320,Deutsche Telekom AG,2003::/25,2003::/30
+2a01:e0a:91c:170::1,France,Hauts-de-France,Tourcoing,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:91c::/48
+2a01:e0a:b19:3160::1,France,Occitanie,Fronton,12322,Free SAS,2a01:e0a:a00::/39,2a01:e0a:b19:2000::/51
+2a01:e0a:edf:9180::1,France,Pays de la Loire,Malville,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:ede::/47
+2a01:e0a:d58:7a00::1,France,Île-de-France,Les Ulis,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d58:4000::/50
+2a01:e0a:e4:da40::1,France,Île-de-France,Nogent-sur-Marne,12322,Free SAS,2a01:e0a::/38,2a01:e0a:e4:c000::/51
+2409:8a55:406:777:8627:b6ff:fe1e:ce51,China,Guangdong,Guangzhou,9808,"China Mobile Communications Group Co., Ltd.",2409:8a55::/35,2409:8a55:400::/38
+2001:8d8:924:5f00::73:65e9,France,notexist,notexist,8560,IONOS SE,2001:8d8::/32,2001:8d8:900::/41
+2a01:e0a:272:17b0::1,France,Provence-Alpes-Côte d'Azur,Roaix,12322,Free SAS,2a01:e0a::/38,2a01:e0a:272::/51
+2a01:e0a:54a:14a0::1,France,Occitanie,Sète,12322,Free SAS,2a01:e0a:500::/41,2a01:e0a:54a::/51
+2a01:e0a:d93:210::1,France,Normandy,Yvetot,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:d93::/48
+2401:4900:4460:3df8:38ed:58a:cd77:63b6,India,National Capital Territory of Delhi,New Delhi,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:4460::/44,2401:4900:4460::/44
+2a09:bac3:9fbb:1be1::2c7:3b,United States,Arizona,Phoenix,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:9fb8::/45
+2a09:bac3:8441:e6e::170:12f,United States,Kentucky,Richmond,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:8440::/45
+2a01:e0a:946:8c70::1,France,Nouvelle-Aquitaine,Dignac,12322,Free SAS,2a01:e0a:900::/40,2a01:e0a:946:8000::/49
+2409:8a55:ec08:13c:8627:b6ff:fe47:c369,China,notexist,notexist,9808,"China Mobile Communications Group Co., Ltd.",2409:8a55:e000::/36,2409:8a55:e000::/35
+2a01:9820:2:12::10:9,Germany,notexist,notexist,62086,VIA-ONLINE GmbH,2a01:9820::/32,2a01:9820::/32
+2a02:8428:b707:201:86d6:c5ff:fe16:b866,France,Centre-Val de Loire,Jargeau,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:a000::/35,2a02:8428:b700::/42
+2003:d5:dfff:15d3:464e:6dff:fe6d:9c7d,Germany,Bavaria,Landshut,3320,Deutsche Telekom AG,2003:d0::/29,2003:d5:dc00::/38
+2003:c4:7fff:e8a:46fe:3bff:fec2:477c,Germany,Brandenburg,Senftenberg,3320,Deutsche Telekom AG,2003:c4::/31,2003:c4:7c00::/38
+2a02:842a:3e6:8f01::1,France,Île-de-France,Houilles,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842a:3e4::/46
+2a01:e0a:e1d:c0d0::1,France,Provence-Alpes-Côte d'Azur,Cuers,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:e1d::/48
+2a09:bac2:3479:14e6::215:99,France,Île-de-France,Paris,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3479::/48
+2a09:bac3:c6b7:197d::28a:4a,United States,New York,New York,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:c6b0::/45
+2a09:bac2:3472:14e6::215:f5,France,Île-de-France,Cergy,13335,CLOUDFLARENET,2a09:bac2::/34,2a09:bac2:3470::/45
+240e:38f:cf00:362:d260:8c3a:1c41:47fa,China,notexist,notexist,4812,China Telecom Group,240e:388::/29,240e:38e::/31
+2a01:e0a:4d1:2380::1,France,Île-de-France,Champigny-sur-Marne,12322,Free SAS,2a01:e0a:400::/40,2a01:e0a:4d1:2000::/51
+2001:4091:a000:242:877:9102:a72a:4576,Germany,Land Berlin,Berlin,12312,ecotel communication ag,2001:4090::/31,2001:4091:a000::/38
+2a01:e0a:3fb:26c0::1,France,Bourgogne-Franche-Comté,Charnay-lès-Mâcon,12322,Free SAS,2a01:e0a::/38,2a01:e0a:3fb:2000::/51
+2001:660:7902:6:3::1,France,Île-de-France,Dourdan,2200,Renater,2001:660:4000::/34,2001:660:7800::/37
+2a01:488:42:1000:50ed:84a2:ffdd:b5b5,Germany,notexist,notexist,20773,Host Europe GmbH,2a01:488::/33,2a01:488::/33
+2604:a880:4:1d0::158:9000,United States,California,Santa Clara,14061,DIGITALOCEAN-ASN,2604:a880:4::/47,2604:a880:4:1d0::/64
+2602:ff64::104:244:28:150,United States,notexist,notexist,23005,SWITCH-LTD,2602:ff64::/36,2602:ff64::/36
+2a01:e0a:584:a50::1,France,Île-de-France,Créteil,12322,Free SAS,2a01:e0a:580::/42,2a01:e0a:584::/48
+2a00:7ee0:8:ff00::6,France,notexist,notexist,210403,Groupe LWS SARL,2a00:7ee0:8::/47,2a00:7ee0::/32
+2a01:e0a:1ae:d1a0::1,France,Grand Est,Oberschaeffolsheim,12322,Free SAS,2a01:e0a::/38,2a01:e0a:1ae:d000::/52
+2a02:842b:8d7b:7c01::1,France,Île-de-France,Paris,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:842a::/31,2a02:842b:8d78::/46
+2409:8a28:7cf8:47f3:144b:7c50:8e77:3a37,China,Zhejiang,Yiwu,56041,China Mobile communications corporation,2409:8a28::/32,2409:8a28:7000::/36
+2001:41d0:d:23c4::,France,notexist,notexist,16276,OVH SAS,2001:41d0::/38,2001:41d0:c::/46
+2401:4900:527f:3ab8:0:1e:2248:b840,India,Rajasthan,Jaipur,45609,Bharti Airtel Ltd. AS for GPRS Service,2401:4900:5270::/44,2401:4900:5240::/42
+2001:bc8:1201:900:46a8:42ff:fe1f:8627,France,notexist,notexist,12876,Scaleway S.a.s.,2001:bc8::/32,2001:bc8:1000::/38
+2a09:bac1:7680:1a98::26b:b,United States,California,East Los Angeles,13335,CLOUDFLARENET,2a09:bac1::/32,2a09:bac1:7680:1a98::/64
+2407:c080:17ef:ffff::7924:3490,China,Beijing,Beijing,55990,Huawei Cloud Service data center,2407:c080:1000::/37,2407:c080:1000::/37
+2a09:bac3:88c5:166e::23c:2e,United States,Maryland,Baltimore,13335,CLOUDFLARENET,2a09:bac3::/32,2a09:bac3:88c4::/47
+2a02:8428:485e:6f01::1,France,Bourgogne-Franche-Comté,Le Creusot,15557,Societe Francaise Du Radiotelephone - SFR SA,2a02:8428:4000::/34,2a02:8428:4840::/42
+2a01:e0a:ec9:9840::1,France,Île-de-France,Paris,12322,Free SAS,2a01:e0a:c00::/38,2a01:e0a:ec9:8000::/49
+2610:80:2:114::2,United States,notexist,notexist,6079,RCN-AS,2610:80::/29,2610:80::/29
