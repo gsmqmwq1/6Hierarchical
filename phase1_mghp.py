@@ -1,3 +1,12 @@
+#!/usr/bin/env python3.10
+# encoding:utf-8
+
+"""
+6Hierarchical - Phase 1: MGHP (Metadata-Guided Hierarchical Partitioning)
+
+"""
+
+
 import pandas as pd
 import ipaddress
 import sys
