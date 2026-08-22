@@ -3,10 +3,6 @@
 
 """
 6Hierarchical - Phase 2: BAG (Budget-based Address Generation)
-
-Loads the MGHP prefix tree (serialized as PKL) from Phase 1,
-classifies nodes as HPV/LPV, allocates budget proportionally,
-and generates candidate IPv6 addresses.
 """
 
 import ipaddress
