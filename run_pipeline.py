@@ -59,13 +59,13 @@ CONFIG = {
     "ZMAP_SOURCE_IP": "your_local_ipv6_address",
     "ZMAP_INTERFACE": "",
     "ZMAP_GATEWAY_MAC": "",
+    "ZMAP_RATE": 5000,
     "BASE_OUTPUT_DIR": "./output",
     "LAPD_N_ONLINE": 14,
     "LAPD_TAU_A": 8,
     "LAPD_DELTA_ON": 16,
     "LAPD_L_ON": 112,
     "MAX_GENERATION_ATTEMPT_FACTOR": 3,
-    "HPV_BUDGET_PERCENT": 15,
     "R_THRESHOLD": 0.8,
     "MAPD_PROTOCOLS": ("icmp6", "tcp80"),
     "MAPD_MIN_TARGETS": 300,
@@ -102,6 +102,7 @@ def zmap_base_command():
     if gateway_mac:
         command.append(f"--gateway-mac={gateway_mac}")
     command.append(f"--ipv6-source-ip={CONFIG['ZMAP_SOURCE_IP']}")
+    command += ["-r", str(CONFIG["ZMAP_RATE"])]
     return command
 
 
@@ -471,7 +472,6 @@ class PipelineController:
             kbc_root,
             total_budget=CONFIG["BUDGET_PER_ROUND"],
             hpv_k=self.k,
-            hpv_budget_percent=CONFIG["HPV_BUDGET_PERCENT"],
             r_threshold=CONFIG["R_THRESHOLD"],
             suppressed_alias_prefixes=self.all_lapd_alias_prefixes,
             max_attempt_factor=CONFIG["MAX_GENERATION_ATTEMPT_FACTOR"],
@@ -793,27 +793,18 @@ class PipelineController:
             return normalized
 
         if unique_probe_addresses:
-            from concurrent.futures import ThreadPoolExecutor, as_completed
-
+            # Sequential shard scans keep the aggregate rate within ZMAP_RATE.
             for protocol in protocols:
-                max_workers = min(shard_count, len(shard_paths))
-                with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                    future_to_task = {
-                        executor.submit(_scan_shard, protocol, shard_path): (
-                            protocol,
-                            shard_path,
+                for shard_path in shard_paths:
+                    try:
+                        responsive_probe_addresses.update(
+                            _scan_shard(protocol, shard_path)
                         )
-                        for shard_path in shard_paths
-                    }
-                    for future in as_completed(future_to_task):
-                        protocol, shard_path = future_to_task[future]
-                        try:
-                            responsive_probe_addresses.update(future.result())
-                        except Exception as e:
-                            raise RuntimeError(
-                                f"MAPD shard scan failed: "
-                                f"protocol={protocol}, shard={os.path.basename(shard_path)}, error={e}"
-                            ) from e
+                    except Exception as e:
+                        raise RuntimeError(
+                            f"MAPD shard scan failed: "
+                            f"protocol={protocol}, shard={os.path.basename(shard_path)}, error={e}"
+                        ) from e
 
         _write_lines(
             self.mapd_merged_responses_file, sorted(responsive_probe_addresses)
@@ -1142,8 +1133,6 @@ class PipelineController:
         with open(self.stats_csv_file, "a", newline="", encoding="utf-8") as f:
             csv.writer(f).writerow(row)
 
-        old_k = self.k
-        old_hpv_budget_percent = CONFIG["HPV_BUDGET_PERCENT"]
         if self.round_id == CONFIG["TOTAL_ROUNDS"] - 1:
             new_k = 1.0
         elif self.round_id >= CONFIG["TOTAL_ROUNDS"]:
@@ -1157,17 +1146,9 @@ class PipelineController:
                 new_k = max(self.k * 0.5, 1.0)
 
         self.k = new_k
-        if old_k > 0:
-            new_hpv_budget_percent = old_hpv_budget_percent * (new_k / old_k)
-            CONFIG["HPV_BUDGET_PERCENT"] = max(0.0, min(100.0, new_hpv_budget_percent))
 
         if self.round_id < CONFIG["TOTAL_ROUNDS"]:
             print(f"[*] Next-round K adjusted to: {self.k:.2f}")
-            print(
-                f"[*] Next-round HPV budget share adjusted to: "
-                f"{CONFIG['HPV_BUDGET_PERCENT']:.4f}% "
-                f"(old={old_hpv_budget_percent:.4f}%, K {old_k:.2f}->{self.k:.2f})"
-            )
 
 
 if __name__ == "__main__":

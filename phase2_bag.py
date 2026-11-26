@@ -23,7 +23,9 @@ BAG_CONFIG = {
     "INPUT_PKL": "mghp_root.pkl",
     "OUTPUT_TXT": "candidates.txt",
     "TOTAL_BUDGET": 1_000_000,
-    "HPV_BUDGET_PERCENT": 10,
+    "HPV_K": 15.0,
+    "EPSILON": 0.15,
+    "IID_BUDGET_LAMBDA": 0.01,
     "R_THRESHOLD": 0.8,
     "ENTROPY_THRESHOLD": 0.1,
     "SMOOTHING_ALPHA": 0.01,
@@ -519,7 +521,6 @@ class BudgetController:
         suppressed_alias_prefixes=None,
         max_attempt_factor=3,
         return_stats=False,
-        hpv_budget_percent=None,
         r_threshold=None,
     ):
         self.root = kbc_root
@@ -527,11 +528,18 @@ class BudgetController:
         self._init_tree_attributes(self.root)
 
         self.total_budget = int(total_budget)
-        self.hpv_budget_percent = (
-            BAG_CONFIG["HPV_BUDGET_PERCENT"]
-            if hpv_budget_percent is None
-            else hpv_budget_percent
-        )
+        if self.total_budget < 0:
+            raise ValueError("total_budget must be non-negative")
+        hpv_k = float(hpv_k if hpv_k is not None else 1.0)
+        if not math.isfinite(hpv_k):
+            raise ValueError("hpv_k must be finite")
+        self.hpv_k = max(1.0, hpv_k)
+        self.epsilon = float(BAG_CONFIG["EPSILON"])
+        if not math.isfinite(self.epsilon) or not 0.0 <= self.epsilon <= 1.0:
+            raise ValueError("EPSILON must be finite and in [0, 1]")
+        self.iid_budget_lambda = float(BAG_CONFIG["IID_BUDGET_LAMBDA"])
+        if not math.isfinite(self.iid_budget_lambda) or self.iid_budget_lambda <= 0:
+            raise ValueError("IID_BUDGET_LAMBDA must be finite and positive")
         self.r_threshold = (
             BAG_CONFIG["R_THRESHOLD"] if r_threshold is None else r_threshold
         )
@@ -616,6 +624,7 @@ class BudgetController:
             f"-> Root statistics: N_total={self.root.n_total}, Unique /64={self.root.n_unique_64}"
         )
         if self.root.n_total == 0:
+            self.stats["abandoned_budget"] = self.total_budget
             print(
                 "[!!!CRITICAL ERROR!!!] Root nodes IP count is zero. Check whether Stage 1 saved ip_list correctly."
             )
@@ -630,7 +639,7 @@ class BudgetController:
             f"-> LPVleaf nodes={self.stats['LPV_Leaves']}, leaves with seeds={self.stats['Leaves_With_Seeds']}, leaves without seeds={self.stats['Leaves_Zero_Seeds']}"
         )
 
-        print("\n=== [DEBUG] Step 3: Splitting the HPV/LPV budget pools ===")
+        print("\n=== [DEBUG] Step 3: Allocating budgets by Eqs. (5)-(6) ===")
         self._allocate_budgets()
         print(
             f"-> HPV budget={self.stats['hpv_budget']}, LPV budget={self.stats['lpv_budget']}"
@@ -686,55 +695,61 @@ class BudgetController:
             self._classify_nodes(child)
 
     def _allocate_budgets(self):
-        hpv_budget = int(self.total_budget * (self.hpv_budget_percent / 100.0))
-        hpv_budget = max(0, min(self.total_budget, hpv_budget))
-        lpv_budget = self.total_budget - hpv_budget
-        self.stats["hpv_budget"] = hpv_budget
-        self.stats["lpv_budget"] = lpv_budget
+        """Compute node weights (Eq. 5) and allocate the round budget (Eq. 6)."""
+        self.stats["hpv_budget"] = 0
+        self.stats["lpv_budget"] = 0
+        self.stats["abandoned_budget"] = 0
+        units = []
 
-        self._allocate_hpv_budget(hpv_budget)
-        self._allocate_lpv_budget_recursive(self.root, lpv_budget)
+        for node in itertools.chain(self.hpv_nodes, self.lpv_leaves):
+            node.weight = 0.0
+            node.budget = 0
+            node.hpv_budget = 0
+            node.lpv_budget = 0
 
-    def _allocate_hpv_budget(self, hpv_budget):
-        if hpv_budget <= 0 or not self.hpv_nodes:
-            return
-        scores = [max(0.0, node.r_val * node.n_total) for node in self.hpv_nodes]
-        total_score = sum(scores)
-        if total_score <= 0:
-            return
+        for node in self.hpv_nodes:
+            if node.n_total > 0:
+                node.weight = self.hpv_k * node.n_total
+                units.append((node, "HPV", node.weight))
 
-        remaining = hpv_budget
-        for node, score in zip(self.hpv_nodes[:-1], scores[:-1]):
-            value = int(hpv_budget * (score / total_score))
-            node.hpv_budget = value
-            node.budget += value
-            remaining -= value
-        self.hpv_nodes[-1].hpv_budget = max(0, remaining)
-        self.hpv_nodes[-1].budget += max(0, remaining)
+        for leaf in self.lpv_leaves:
+            n_seed = len(leaf.ip_list)
+            if n_seed > 0:
+                leaf.weight = float(n_seed)
+                units.append((leaf, "LPV", leaf.weight))
 
-    def _allocate_lpv_budget_recursive(self, node, budget):
-        if budget <= 0:
-            return
-        if node.is_leaf_64:
-            node.lpv_budget += budget
-            node.budget += budget
+        total_weight = sum(weight for _, _, weight in units)
+        if total_weight <= 0:
+            self.stats["abandoned_budget"] = self.total_budget
             return
 
-        lpv_children = [
-            child for child in node.get_children() if child.node_type == "LPV"
-        ]
-        if not lpv_children:
-            return
-        total = sum(max(0, child.n_total) for child in lpv_children)
-        if total <= 0:
-            return
+        allocations = []
+        for node, node_type, weight in units:
+            exact = self.total_budget * weight / total_weight
+            budget = int(exact)
+            allocations.append({
+                "node": node,
+                "type": node_type,
+                "budget": budget,
+                "remainder": exact - budget,
+            })
 
-        remaining = budget
-        for child in lpv_children[:-1]:
-            value = int(budget * (child.n_total / total))
-            self._allocate_lpv_budget_recursive(child, value)
-            remaining -= value
-        self._allocate_lpv_budget_recursive(lpv_children[-1], max(0, remaining))
+        # Largest-remainder rounding; ties keep the original traversal order.
+        remaining = self.total_budget - sum(item["budget"] for item in allocations)
+        allocations.sort(key=lambda item: item["remainder"], reverse=True)
+        for item in allocations[:remaining]:
+            item["budget"] += 1
+
+        for item in allocations:
+            node = item["node"]
+            budget = item["budget"]
+            node.budget = budget
+            if item["type"] == "HPV":
+                node.hpv_budget = budget
+                self.stats["hpv_budget"] += budget
+            else:
+                node.lpv_budget = budget
+                self.stats["lpv_budget"] += budget
 
     def _generate_with_alias_filter(self):
         candidates = []
@@ -793,6 +808,80 @@ class BudgetController:
                 )
         return candidates
 
+    def _generate_hpv_historical(self, node, budget):
+        """Allocate an HPV node's historical budget within its known /64 prefixes."""
+        if budget <= 0:
+            return []
+
+        leaves = []
+
+        def collect_leaves(current):
+            if current.is_leaf_64:
+                if current.ip_list:
+                    leaves.append(current)
+                return
+            for child in current.get_children():
+                collect_leaves(child)
+
+        collect_leaves(node)
+        category_seeds = {cat: {} for cat in self.lpv_iid.CATEGORIES}
+        for leaf in leaves:
+            for seed in leaf.ip_list:
+                try:
+                    iid = self.lpv_iid._iid_hex(seed)
+                except (ValueError, TypeError):
+                    continue
+                cat = self.lpv_iid.classify_iid_hex(iid)
+                category_seeds[cat].setdefault(leaf, []).append(iid)
+
+        category_weights = {
+            cat: sum(len(seeds) for seeds in groups.values()) + self.iid_budget_lambda
+            for cat, groups in category_seeds.items()
+        }
+        total_weight = sum(category_weights.values())
+        allocations = {}
+        remainders = {}
+        for cat, weight in category_weights.items():
+            exact = budget * weight / total_weight
+            allocations[cat] = int(exact)
+            remainders[cat] = exact - allocations[cat]
+        remaining = budget - sum(allocations.values())
+        for cat in sorted(remainders, key=remainders.get, reverse=True)[:remaining]:
+            allocations[cat] += 1
+
+        results = []
+        for cat in self.lpv_iid.CATEGORIES:
+            leaf_groups = category_seeds[cat]
+            cat_budget = allocations[cat]
+            if not leaf_groups or cat_budget <= 0:
+                continue
+            total_seeds = sum(len(seeds) for seeds in leaf_groups.values())
+            leaf_allocations = {}
+            leaf_remainders = {}
+            for leaf, seeds in leaf_groups.items():
+                exact = cat_budget * len(seeds) / total_seeds
+                leaf_allocations[leaf] = int(exact)
+                leaf_remainders[leaf] = exact - leaf_allocations[leaf]
+            remaining_leaf = cat_budget - sum(leaf_allocations.values())
+            for leaf in sorted(
+                leaf_remainders, key=leaf_remainders.get, reverse=True
+            )[:remaining_leaf]:
+                leaf_allocations[leaf] += 1
+
+            for leaf, seeds in leaf_groups.items():
+                leaf_budget = leaf_allocations[leaf]
+                if leaf_budget <= 0:
+                    continue
+                generated, _ = self.lpv_iid._generate_category(cat, seeds, leaf_budget)
+                prefix_base = int(
+                    ipaddress.IPv6Network(leaf.key_value, strict=False).network_address
+                ) & (0xFFFFFFFFFFFFFFFF << 64)
+                results.extend(
+                    str(ipaddress.IPv6Address(prefix_base | int(iid, 16)))
+                    for iid in generated
+                )
+        return results
+
     def _generate_batch(self):
         results = []
         debug_printed = 0
@@ -805,11 +894,17 @@ class BudgetController:
                     f"  [Gen-HPV] Node {node.key_type}:{node.key_value} Budget: {node.hpv_budget}, Seeds: {node.n_total}, r={node.r_val:.4f}"
                 )
                 debug_printed += 1
-            prefix_counts, total_seeds = self._build_tmp_prefix_counts_bottom_up(node)
-            results.extend(
-                self.hmlea.generate(prefix_counts, total_seeds, node.hpv_budget)
-            )
-            self._clear_tmp_prefix_counts(node)
+            # Eq. (9): split the HPV budget into exploration and historical parts.
+            b_exp = int(self.epsilon * node.hpv_budget)
+            b_hist = node.hpv_budget - b_exp
+            if b_exp > 0:
+                prefix_counts, total_seeds = self._build_tmp_prefix_counts_bottom_up(node)
+                try:
+                    results.extend(self.hmlea.generate(prefix_counts, total_seeds, b_exp))
+                finally:
+                    self._clear_tmp_prefix_counts(node)
+            if b_hist > 0:
+                results.extend(self._generate_hpv_historical(node, b_hist))
 
         for leaf in self.lpv_leaves:
             if leaf.lpv_budget <= 0:
@@ -871,7 +966,7 @@ if __name__ == "__main__":
     controller = BudgetController(
         kbc_root,
         BAG_CONFIG["TOTAL_BUDGET"],
-        hpv_budget_percent=BAG_CONFIG["HPV_BUDGET_PERCENT"],
+        hpv_k=BAG_CONFIG["HPV_K"],
     )
     candidates = controller.process()
 

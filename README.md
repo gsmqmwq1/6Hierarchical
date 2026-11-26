@@ -1,10 +1,10 @@
 # 6Hierarchical
 
-6Hierarchical is a systematic IPv6 active scanning framework that combines hierarchical prefix analysis, BAG/MGHP candidate generation, ZMap probing, feedback updates, online LAPD screening, and final Gasser MAPD classification.
+6Hierarchical is a hierarchical multi-pattern approach for active IPv6 address scanning within subnet prefixes, balancing prefix exploration and IID exploitation under a budget-aware multi-round loop.
 
 ## WSL Ubuntu Setup
 
-The artifact is intended to run in Ubuntu on WSL2. Run all commands from the repository root. Python 3.10 or newer is recommended.
+6Hierarchical runs on Ubuntu under WSL2. The commands below assume you are in the repository root, and Python 3.10 or newer is recommended.
 
 ```bash
 sudo apt-get update
@@ -14,26 +14,21 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## ZMap Installation for IPv6 Scanning
+## Installing ZMap
 
-6Hierarchical uses ZMap for IPv6 active probing. Users should ensure that they have permission to conduct active measurements from their local network before running the scanning component.
+IPv6 probing is handled by ZMap, which has to be built from source first. Before starting a scan, please make sure you are allowed to run active measurements from your network.
 
-### Building from Source
-
-```bash
-git clone https://github.com/tumi8/zmap.git
-cd zmap
-```
-
-### Installing ZMap Dependencies in WSL Ubuntu
+### Dependencies
 
 ```bash
 sudo apt-get install -y build-essential cmake libgmp3-dev gengetopt libpcap-dev flex byacc libjson-c-dev pkg-config libunistring-dev
 ```
 
-### Building and Installing ZMap
+### Build from source
 
 ```bash
+git clone https://github.com/tumi8/zmap.git
+cd zmap
 cmake .
 make -j4
 sudo make install
@@ -45,29 +40,22 @@ sudo make install
 
 | File | Introduction |
 |---|---|
-| `run_pipeline.py` | Main entry point. Runs MGHP, BAG, ZMap probing, feedback, online LAPD, and final MAPD. |
-| `phase1_mghp.py` | Phase 1: builds the hierarchical prefix tree from seed IPv6 addresses and metadata. |
-| `phase2_bag.py` | Phase 2: performs budget-aware candidate IPv6 address generation with BAG/MGHP. |
-| `lapd.py` | Online lightweight alias-prefix pre-screening. |
-| `gasser_mapd.py` | Final MAPD candidate generation and alias classification. |
-| `whois/` | Metadata lookup code. GeoIP databases are downloaded separately and are not included in the repository. |
-| `test.csv` | Lightweight seed dataset for validation. |
-| `requirements.txt` | Python package dependencies required by the artifact. |
-| `LICENSE` | MIT License for the original source code in this repository. |
+| `run_pipeline.py` | Main entry point. |
+| `phase1_mghp.py` | Builds the hierarchical prefix tree (MGHP). |
+| `phase2_bag.py` | Budget-aware candidate generation (BAG). |
+| `lapd.py` | Online alias-prefix pre-screening (LAPD). |
+| `gasser_mapd.py` | Final de-aliasing (MAPD). |
+| `whois/` | Metadata lookup code. |
 
 ### Data
 
-The repository includes `test.csv`, a lightweight seed dataset for validating the workflow. The large-scale measurement datasets used in the paper are not included due to data size and measurement considerations.
+For security and network-compliance reasons, this repository only ships a small test seed set (`test.csv`) for validating the workflow.
 
-Users may replace `test.csv` with their own authorized IPv6 seed dataset. For the integrated workflow, edit `INITIAL_SEED_CSV` in the `CONFIG` block near the top of `run_pipeline.py`. For standalone Phase 1, edit `CSV_INPUT_FILE` in the `__main__` block of `phase1_mghp.py`. Use repository-relative paths, for example `data/my_seed.csv`.
-
-The input CSV should contain `IPv6Address` or `IPv6`, together with the metadata fields required by the pipeline: `country`, `province`, `city`, `asnum`, `asorg`, `network_prefix`, and `subnet_prefix`.
-
-The local `whois/` directory contains the lookup code used to obtain ASN, country, city, and prefix metadata. The actual GeoIP databases are not included in this repository because they are large and subject to MaxMind licensing terms.
+If you have your own authorized seed data, point `INITIAL_SEED_CSV` in `CONFIG` to your CSV file. It should contain `IPv6Address` (or `IPv6`) along with `country`, `province`, `city`, `asnum`, `asorg`, `network_prefix`, and `subnet_prefix`.
 
 ## GeoIP Database Setup
 
-The pipeline requires three local MaxMind databases for metadata lookup:
+Metadata lookup relies on three MaxMind GeoLite2 databases, which are not bundled with this repository. Download them from MaxMind (https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) and place them in the `whois/` directory, keeping the file names below so the pipeline can resolve ASN and geolocation for candidate addresses:
 
 | Database file | Purpose |
 |---|---|
@@ -75,38 +63,18 @@ The pipeline requires three local MaxMind databases for metadata lookup:
 | `whois/GeoLite2-City.mmdb` | Country, province, city, and network lookup. |
 | `whois/GeoLite2-Country.mmdb` | Country-level fallback lookup. |
 
-These files are intentionally excluded from GitHub. Do not commit them to the repository, and do not commit your MaxMind account credentials or license key.
-
-The databases are not provided with this artifact. Each user is responsible for obtaining compatible databases through an authorized source and placing them in the `whois/` directory. This repository does not provide database download information, download links, account credentials, or license keys.
-
-The current pipeline expects the country fallback file to be named `GeoLite2-Country.mmdb`. The final local layout should be:
-
-```text
-whois/
-|-- IPv6AddMoreInformationRead.py
-|-- __init__.py
-|-- GeoLite2-ASN.mmdb
-|-- GeoLite2-City.mmdb
-`-- GeoLite2-Country.mmdb
-```
-
-The database files are ignored by `.gitignore` and remain local to each experiment environment. If the databases are missing, metadata lookup and the full pipeline cannot run correctly.
-
 ## Parameters
 
 ### `run_pipeline.py`
 
-| Parameter | Type | Default | Introduction |
-|---|---|---|---|
-| `INITIAL_SEED_CSV` | `str` | `test.csv` | Path to the initial seed CSV file. |
-| `TOTAL_ROUNDS` | `int` | `20` | Number of feedback rounds. |
-| `BUDGET_PER_ROUND` | `int` | `200000` | Number of candidate addresses generated in each round. |
-| `INITIAL_K` | `float` | `15.0` | Initial HPV bonus multiplier. |
-| `ZMAP_SOURCE_IP` | `str` | `your_local_ipv6_address` | Local IPv6 source address used by ZMap. |
-| `LAPD_N_ONLINE` | `int` | `14` | Number of online LAPD probes per prefix. |
-| `LAPD_TAU_A` | `int` | `8` | Online LAPD alias decision threshold. |
-
-The configured source address should be a valid local IPv6 address on the machine used for active probing. `ZMAP_INTERFACE` and `ZMAP_GATEWAY_MAC` are optional local-network settings.
+| Parameter | Default | Introduction |
+|---|---|---|
+| `INITIAL_SEED_CSV` | `test.csv` | Seed CSV file. |
+| `TOTAL_ROUNDS` | `20` | Number of feedback rounds. |
+| `BUDGET_PER_ROUND` | `200000` | Candidate addresses per round. |
+| `INITIAL_K` | `15.0` | Initial expansion coefficient. |
+| `R_THRESHOLD` | `0.8` | HPV/LPV classification threshold. |
+| `ZMAP_SOURCE_IP` | `your_local_ipv6_address` | ZMap source address; set it to yours. |
 
 ## Example
 
@@ -152,27 +120,25 @@ python3 run_pipeline.py
 
 ## Running Individual Phases
 
-The integrated entry point is recommended because it manages intermediate artifacts, feedback, online LAPD state, and final MAPD results.
+Running `run_pipeline.py` is recommended, since it handles feedback, LAPD state, and final MAPD validation. The phases can also be run on their own.
 
-The standalone phase scripts use the relative input and output filenames defined in their configuration blocks.
-
-### Phase 1: Build the MGHP Prefix Tree
+### Phase 1: Build the Prefix Tree
 
 ```bash
 python3 phase1_mghp.py
 ```
 
-This step reads `test.csv` by default and constructs the hierarchical prefix tree. It writes `mghp_root.pkl` and `mghp_tree.txt` in the repository root.
+Writes `mghp_root.pkl` and `mghp_tree.txt`.
 
-### Phase 2: Generate Candidate Addresses with BAG
+### Phase 2: Generate Candidates
 
 ```bash
 python3 phase2_bag.py
 ```
 
-This step loads `mghp_root.pkl` and generates `candidates.txt` under the configured budget. The input and output filenames can be changed in the `BAG_CONFIG` block.
+Reads `mghp_root.pkl` and writes `candidates.txt`.
 
-### Phase 3: Scan Candidate Addresses with ZMap
+### Phase 3: Scan with ZMap
 
 ```bash
 sudo zmap --ipv6-source-ip=your_local_ipv6_address \
@@ -181,13 +147,11 @@ sudo zmap --ipv6-source-ip=your_local_ipv6_address \
     -q -o scan_results.txt
 ```
 
-Online LAPD screening, feedback updates, and final MAPD are managed by `run_pipeline.py` after each scan round.
-
 ## Artifact Status
 
-This repository provides the main 6Hierarchical workflow for reproducibility checking. It includes the core implementation, a lightweight validation dataset, metadata lookup code, GeoIP setup documentation, and dependency documentation. The MaxMind databases are intentionally distributed separately.
+This repository contains the implementation, a lightweight validation dataset, metadata lookup code, and setup documentation.
 
-Large-scale measurement datasets and generated scanning outputs are not included. Users should run the workflow only with authorized seed data and a properly configured IPv6 scanning environment.
+Scan results and measurement data are not released, in the interest of responsible network measurement and to discourage unauthorized or abusive scanning. Users are asked to probe only networks they are authorized to test.
 
 ## License
 

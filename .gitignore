@@ -2,6 +2,7 @@
 D1.csv
 D4.csv
 D*.csv
+seedset_*.csv
 *.csv.gz
 *.zip
 *.tar
